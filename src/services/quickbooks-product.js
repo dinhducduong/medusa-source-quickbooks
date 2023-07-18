@@ -4,8 +4,8 @@ class QuickbooksProductService extends BaseService {
   constructor(
     {
       manager,
-    quickbooksClientService,
-    
+      quickbooksClientService,
+
       productService,
     },
     options
@@ -13,7 +13,7 @@ class QuickbooksProductService extends BaseService {
     super()
 
     this.options = options
-this.client_ = quickbooksClientService
+    this.client_ = quickbooksClientService
     /** @private @const {EntityManager} */
     this.manager_ = manager
     /** @private @const {ProductService} */
@@ -39,20 +39,7 @@ this.client_ = quickbooksClientService
 
   async getProducts() {
     return this.atomicPhase_(async (manager) => {
-      const data = await this.client_.list({},{ 
-        take: this.options.take, 
-        skip: this.options.skip,
-        relations:[
-          "variants",
-          "variants.prices",
-          "variants.options",
-          "images",
-          "options",
-          "options.values",
-          "tags",
-          "type",
-          "collection",
-        ] })
+      const data = await this.client_.authToken()
       return data
     })
   }
