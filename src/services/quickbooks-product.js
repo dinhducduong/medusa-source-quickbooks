@@ -39,7 +39,17 @@ class QuickbooksProductService extends BaseService {
 
   async getProducts() {
     return this.atomicPhase_(async (manager) => {
-      const data = await this.client_.authToken()
+      const data = await this.client_.getListProduct()
+      return data.data
+    })
+  }
+
+  async createProductMedusa(productsData) {
+    return this.atomicPhase_(async (manager) => {
+      const data = await this.productService_.create(
+        productsData,
+      )
+      console.log(data)
       return data
     })
   }

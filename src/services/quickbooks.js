@@ -2,8 +2,8 @@ import { BaseService } from "medusa-interfaces"
 class QuickbooksService extends BaseService {
   constructor(
     {
-    manager,
-    quickbooksProductService
+      manager,
+      quickbooksProductService,
     },
     options
   ) {
@@ -11,7 +11,7 @@ class QuickbooksService extends BaseService {
     this.options = options
     /** @private @const {EntityManager} */
     this.manager_ = manager
-    this.productService_ = quickbooksProductService
+    this.productServiceQuickbooks_ = quickbooksProductService
   }
   withTransaction(transactionManager) {
     if (!transactionManager) {
@@ -20,36 +20,26 @@ class QuickbooksService extends BaseService {
     const cloned = new QuickbooksService({
       manager: transactionManager,
       options: this.options,
-      
+
     })
     cloned.transactionManager_ = transactionManager
     return cloned
   }
-  async getProductMedusa() {
-    const products = this.productService_.getProducts()
+  async getProductQuickBooks() {
+    const products = this.productServiceQuickbooks_.getProducts()
     return products
   }
-  async createProfileUmoni() {
+  async createProduct() {
+    const products = this.productServiceQuickbooks_.createProductMedusa()
+    return products
+  }
+  async createProductQuickbooks() {
     return this.atomicPhase_(async (manager) => {
-      const products = await this.getProductMedusa()
-      console.log(products)
-      // await Promise.all(
-      //   products.map(async (product) => {
-      //     const data = {
-      //       "itemId": product.id,
-      //       "itemType": "profile",
-      //       "properties": product,
-      //       "systemProperties": {
-      //         "mergeIdentifier": "bill",
-      //         "lists": [
-      //           "productListId"
-      //         ],
-      //       }
-      //     }
-      //     console.log(data);
-      //     return await this.client_.createProfile(data)
-      //   })
-      // )
+      const products = await this.getProductQuickBooks()
+      const data = await this.createProduct(products)
+      console.log(products.QueryResponse.Item)
+      console.log(data)
+
     })
   }
 }

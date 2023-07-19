@@ -1,0 +1,2085 @@
+2023-07-19T02:39:47.330Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=testState
+2023-07-19T02:55:29.511Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=testState
+2023-07-19T02:55:38.449Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=testState
+2023-07-19T02:56:01.029Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=testState
+2023-07-19T02:56:13.569Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=testState
+2023-07-19T02:56:14.864Z error: Create Token () threw an exception : {
+  "authResponse": {
+    "token": {
+      "realmId": "",
+      "token_type": "",
+      "access_token": "",
+      "refresh_token": "",
+      "expires_in": 0,
+      "x_refresh_token_expires_in": 0,
+      "id_token": "",
+      "latency": 60000,
+      "createdAt": 1689735373566,
+      "state": "testState"
+    },
+    "response": {
+      "url": "https://oauth.platform.intuit.com/oauth2/v1/tokens/bearer",
+      "headers": {
+        "date": "Wed, 19 Jul 2023 02:56:14 GMT",
+        "content-type": "application/json;charset=utf-8",
+        "content-length": "27",
+        "connection": "close",
+        "x-spanid": "4e34ae99-540c-21bc-de0f-876830691719",
+        "x-amzn-trace-id": "Root=1-64b750ce-094b1cb0058a877c7c31101e",
+        "x-content-type-options": "nosniff",
+        "server": "istio-envoy",
+        "cache-control": "no-cache, no-store",
+        "pragma": "no-cache",
+        "x-envoy-upstream-service-time": "5",
+        "strict-transport-security": "max-age=31536000",
+        "intuit_tid": "1-64b750ce-094b1cb0058a877c7c31101e",
+        "x-request-id": "1-64b750ce-094b1cb0058a877c7c31101e",
+        "x-envoy-decorator-operation": "usw2-prd-id06-intuit-gateway-active-service.services-gateway-apigwid-usw2-prd-id06.svc.cluster.local:7000/*"
+      },
+      "body": "{\"error\":\"invalid_request\"}",
+      "status": 400,
+      "statusText": "Bad Request"
+    },
+    "body": "{\"error\":\"invalid_request\"}",
+    "json": {
+      "error": "invalid_request"
+    },
+    "intuit_tid": "1-64b750ce-094b1cb0058a877c7c31101e"
+  },
+  "originalMessage": "Response has an Error",
+  "error": "invalid_request",
+  "error_description": "Bad Request",
+  "intuit_tid": "1-64b750ce-094b1cb0058a877c7c31101e"
+}
+2023-07-19T02:56:25.627Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=testState
+2023-07-19T02:56:26.709Z error: Create Token () threw an exception : {
+  "authResponse": {
+    "token": {
+      "realmId": "",
+      "token_type": "",
+      "access_token": "",
+      "refresh_token": "",
+      "expires_in": 0,
+      "x_refresh_token_expires_in": 0,
+      "id_token": "",
+      "latency": 60000,
+      "createdAt": 1689735385624,
+      "state": "testState"
+    },
+    "response": {
+      "url": "https://oauth.platform.intuit.com/oauth2/v1/tokens/bearer",
+      "headers": {
+        "date": "Wed, 19 Jul 2023 02:56:26 GMT",
+        "content-type": "application/json;charset=utf-8",
+        "content-length": "27",
+        "connection": "close",
+        "x-spanid": "b20e2785-28cc-0270-4234-44ff0717c2e2",
+        "x-amzn-trace-id": "Root=1-64b750da-3d84de792ff357cc54e7516b",
+        "x-content-type-options": "nosniff",
+        "server": "istio-envoy",
+        "cache-control": "no-cache, no-store",
+        "pragma": "no-cache",
+        "x-envoy-upstream-service-time": "3",
+        "strict-transport-security": "max-age=31536000",
+        "intuit_tid": "1-64b750da-3d84de792ff357cc54e7516b",
+        "x-request-id": "1-64b750da-3d84de792ff357cc54e7516b",
+        "x-envoy-decorator-operation": "usw2-prd-id06-intuit-gateway-active-service.services-gateway-apigwid-usw2-prd-id06.svc.cluster.local:7000/*"
+      },
+      "body": "{\"error\":\"invalid_request\"}",
+      "status": 400,
+      "statusText": "Bad Request"
+    },
+    "body": "{\"error\":\"invalid_request\"}",
+    "json": {
+      "error": "invalid_request"
+    },
+    "intuit_tid": "1-64b750da-3d84de792ff357cc54e7516b"
+  },
+  "originalMessage": "Response has an Error",
+  "error": "invalid_request",
+  "error_description": "Bad Request",
+  "intuit_tid": "1-64b750da-3d84de792ff357cc54e7516b"
+}
+2023-07-19T02:56:34.530Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=testState
+2023-07-19T02:56:37.510Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=testState
+2023-07-19T02:56:38.521Z error: Create Token () threw an exception : {
+  "authResponse": {
+    "token": {
+      "realmId": "",
+      "token_type": "",
+      "access_token": "",
+      "refresh_token": "",
+      "expires_in": 0,
+      "x_refresh_token_expires_in": 0,
+      "id_token": "",
+      "latency": 60000,
+      "createdAt": 1689735397507,
+      "state": "testState"
+    },
+    "response": {
+      "url": "https://oauth.platform.intuit.com/oauth2/v1/tokens/bearer",
+      "headers": {
+        "date": "Wed, 19 Jul 2023 02:56:38 GMT",
+        "content-type": "application/json;charset=utf-8",
+        "content-length": "27",
+        "connection": "close",
+        "x-spanid": "6101447d-f472-d6c9-bdd5-a8a8ed47191f",
+        "x-amzn-trace-id": "Root=1-64b750e6-09b61c374a6c0768307c56a2",
+        "x-content-type-options": "nosniff",
+        "server": "istio-envoy",
+        "cache-control": "no-cache, no-store",
+        "pragma": "no-cache",
+        "x-envoy-upstream-service-time": "3",
+        "strict-transport-security": "max-age=31536000",
+        "intuit_tid": "1-64b750e6-09b61c374a6c0768307c56a2",
+        "x-request-id": "1-64b750e6-09b61c374a6c0768307c56a2",
+        "x-envoy-decorator-operation": "usw2-prd-id06-intuit-gateway-active-service.services-gateway-apigwid-usw2-prd-id06.svc.cluster.local:7000/*"
+      },
+      "body": "{\"error\":\"invalid_request\"}",
+      "status": 400,
+      "statusText": "Bad Request"
+    },
+    "body": "{\"error\":\"invalid_request\"}",
+    "json": {
+      "error": "invalid_request"
+    },
+    "intuit_tid": "1-64b750e6-09b61c374a6c0768307c56a2"
+  },
+  "originalMessage": "Response has an Error",
+  "error": "invalid_request",
+  "error_description": "Bad Request",
+  "intuit_tid": "1-64b750e6-09b61c374a6c0768307c56a2"
+}
+2023-07-19T02:56:55.800Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=testState
+2023-07-19T02:56:55.804Z error: Create Token () threw an exception : {}
+2023-07-19T02:57:14.373Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=testState
+2023-07-19T02:57:14.375Z error: Create Token () threw an exception : {}
+2023-07-19T02:57:35.895Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=testState
+2023-07-19T02:57:35.901Z error: Create Token () threw an exception : {}
+2023-07-19T02:58:38.711Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=testState
+2023-07-19T02:58:38.714Z error: Create Token () threw an exception : {}
+2023-07-19T02:58:52.350Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=testState
+2023-07-19T02:58:52.352Z error: Create Token () threw an exception : {}
+2023-07-19T02:59:05.295Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=testState
+2023-07-19T02:59:05.297Z error: Create Token () threw an exception : {}
+2023-07-19T02:59:25.226Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=testState
+2023-07-19T02:59:26.539Z error: Create Token () threw an exception : {
+  "authResponse": {
+    "token": {
+      "realmId": "",
+      "token_type": "",
+      "access_token": "",
+      "refresh_token": "",
+      "expires_in": 0,
+      "x_refresh_token_expires_in": 0,
+      "id_token": "",
+      "latency": 60000,
+      "createdAt": 1689735565223,
+      "state": "testState"
+    },
+    "response": {
+      "url": "https://oauth.platform.intuit.com/oauth2/v1/tokens/bearer",
+      "headers": {
+        "date": "Wed, 19 Jul 2023 02:59:26 GMT",
+        "content-type": "application/json;charset=utf-8",
+        "content-length": "27",
+        "connection": "close",
+        "x-spanid": "a2423cd9-8975-7411-785a-d41e4b4541ba",
+        "x-amzn-trace-id": "Root=1-64b7518e-3847ca343393e83e7b693a18",
+        "x-content-type-options": "nosniff",
+        "server": "istio-envoy",
+        "cache-control": "no-cache, no-store",
+        "pragma": "no-cache",
+        "x-envoy-upstream-service-time": "3",
+        "strict-transport-security": "max-age=31536000",
+        "intuit_tid": "1-64b7518e-3847ca343393e83e7b693a18",
+        "x-request-id": "1-64b7518e-3847ca343393e83e7b693a18",
+        "x-envoy-decorator-operation": "usw2-prd-id06-intuit-gateway-active-service.services-gateway-apigwid-usw2-prd-id06.svc.cluster.local:7000/*"
+      },
+      "body": "{\"error\":\"invalid_request\"}",
+      "status": 400,
+      "statusText": "Bad Request"
+    },
+    "body": "{\"error\":\"invalid_request\"}",
+    "json": {
+      "error": "invalid_request"
+    },
+    "intuit_tid": "1-64b7518e-3847ca343393e83e7b693a18"
+  },
+  "originalMessage": "Response has an Error",
+  "error": "invalid_request",
+  "error_description": "Bad Request",
+  "intuit_tid": "1-64b7518e-3847ca343393e83e7b693a18"
+}
+2023-07-19T03:01:15.371Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=testState
+2023-07-19T03:01:20.002Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=testState
+2023-07-19T03:01:20.004Z error: Create Token () threw an exception : {}
+2023-07-19T03:03:06.001Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=testState
+2023-07-19T03:03:06.003Z error: Create Token () threw an exception : {}
+2023-07-19T03:07:00.309Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=4V1o1kft-ycwTpSVtyOqo0bXbp-TjM2Kr9fY
+2023-07-19T03:07:00.311Z error: Create Token () threw an exception : {}
+2023-07-19T03:07:40.743Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=3pEkR6pr-LLGem2ChAfAeNtVDK9rNaHZFyEY
+2023-07-19T03:07:49.726Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=9LkuCiF3-KS8ft9UlICIgmq6pHEWHIJjPDDQ
+2023-07-19T03:07:49.728Z error: Create Token () threw an exception : {}
+2023-07-19T03:45:43.395Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=b81EkbMG-Oc-uTFCA2zqu973S4GRmBkWXb9E
+2023-07-19T03:45:43.397Z error: Create Token () threw an exception : {}
+2023-07-19T03:45:50.579Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=nbeGYoNW-d7OPNn5iu8PKExmu2aLytDzhOQA
+2023-07-19T03:45:50.581Z error: Create Token () threw an exception : {}
+2023-07-19T03:51:17.228Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=U6Hj0kkX-ujh8v8zqiqjZqNAbVslOOernULI
+2023-07-19T03:51:17.230Z error: Create Token () threw an exception : {}
+2023-07-19T03:51:46.219Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=4UJJwtX3-u6hFiHWCwKFf8GPWgQISZJAsdis
+2023-07-19T03:51:46.222Z error: Create Token () threw an exception : {}
+2023-07-19T03:52:08.940Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=3lIzeTXX-pOH448YC-eLTT9iC2vf1B2p_1q8
+2023-07-19T03:52:08.943Z error: Create Token () threw an exception : {}
+2023-07-19T03:53:16.544Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=xyaWa1lI-8Zxtc4zSHhTH9jTMK1QalTxToes
+2023-07-19T03:53:16.547Z error: Create Token () threw an exception : {}
+2023-07-19T03:53:45.741Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=kIPCH5xf-Ac4o9sg6QpWhrHbhYmP0wd-bdzw
+2023-07-19T03:53:45.745Z error: Create Token () threw an exception : {}
+2023-07-19T03:53:55.706Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=K1R3XAzw-YV4BLOBSWWdl-FZnNWRogYgjA3E
+2023-07-19T03:53:56.885Z error: Create Token () threw an exception : {
+  "authResponse": {
+    "token": {
+      "realmId": "",
+      "token_type": "",
+      "access_token": "",
+      "refresh_token": "",
+      "expires_in": 0,
+      "x_refresh_token_expires_in": 0,
+      "id_token": "",
+      "latency": 60000,
+      "createdAt": 1689738835702,
+      "state": "K1R3XAzw-YV4BLOBSWWdl-FZnNWRogYgjA3E"
+    },
+    "response": {
+      "url": "https://oauth.platform.intuit.com/oauth2/v1/tokens/bearer",
+      "headers": {
+        "date": "Wed, 19 Jul 2023 03:53:56 GMT",
+        "content-type": "application/json;charset=utf-8",
+        "content-length": "27",
+        "connection": "close",
+        "x-spanid": "28ec61b4-44e8-953e-942c-3fd35953aa33",
+        "x-amzn-trace-id": "Root=1-64b75e54-4e24adba280a588f2fe8ca71",
+        "x-content-type-options": "nosniff",
+        "server": "istio-envoy",
+        "cache-control": "no-cache, no-store",
+        "pragma": "no-cache",
+        "x-envoy-upstream-service-time": "3",
+        "strict-transport-security": "max-age=31536000",
+        "intuit_tid": "1-64b75e54-4e24adba280a588f2fe8ca71",
+        "x-request-id": "1-64b75e54-4e24adba280a588f2fe8ca71",
+        "x-envoy-decorator-operation": "usw2-prd-id06-intuit-gateway-active-service.services-gateway-apigwid-usw2-prd-id06.svc.cluster.local:7000/*"
+      },
+      "body": "{\"error\":\"invalid_request\"}",
+      "status": 400,
+      "statusText": "Bad Request"
+    },
+    "body": "{\"error\":\"invalid_request\"}",
+    "json": {
+      "error": "invalid_request"
+    },
+    "intuit_tid": "1-64b75e54-4e24adba280a588f2fe8ca71"
+  },
+  "originalMessage": "Response has an Error",
+  "error": "invalid_request",
+  "error_description": "Bad Request",
+  "intuit_tid": "1-64b75e54-4e24adba280a588f2fe8ca71"
+}
+2023-07-19T03:55:38.862Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=testState
+2023-07-19T03:55:39.974Z error: Create Token () threw an exception : {
+  "authResponse": {
+    "token": {
+      "realmId": "",
+      "token_type": "",
+      "access_token": "",
+      "refresh_token": "",
+      "expires_in": 0,
+      "x_refresh_token_expires_in": 0,
+      "id_token": "",
+      "latency": 60000,
+      "createdAt": 1689738938852,
+      "state": "testState"
+    },
+    "response": {
+      "url": "https://oauth.platform.intuit.com/oauth2/v1/tokens/bearer",
+      "headers": {
+        "date": "Wed, 19 Jul 2023 03:55:39 GMT",
+        "content-type": "application/json;charset=utf-8",
+        "content-length": "27",
+        "connection": "close",
+        "x-spanid": "9398b8a9-fed2-c696-a3e4-4e877d44efe0",
+        "x-amzn-trace-id": "Root=1-64b75ebb-5dd33bd3461cf6d0442f5e18",
+        "x-content-type-options": "nosniff",
+        "server": "istio-envoy",
+        "cache-control": "no-cache, no-store",
+        "pragma": "no-cache",
+        "x-envoy-upstream-service-time": "4",
+        "strict-transport-security": "max-age=31536000",
+        "intuit_tid": "1-64b75ebb-5dd33bd3461cf6d0442f5e18",
+        "x-request-id": "1-64b75ebb-5dd33bd3461cf6d0442f5e18",
+        "x-envoy-decorator-operation": "usw2-prd-id06-intuit-gateway-active-service.services-gateway-apigwid-usw2-prd-id06.svc.cluster.local:7000/*"
+      },
+      "body": "{\"error\":\"invalid_request\"}",
+      "status": 400,
+      "statusText": "Bad Request"
+    },
+    "body": "{\"error\":\"invalid_request\"}",
+    "json": {
+      "error": "invalid_request"
+    },
+    "intuit_tid": "1-64b75ebb-5dd33bd3461cf6d0442f5e18"
+  },
+  "originalMessage": "Response has an Error",
+  "error": "invalid_request",
+  "error_description": "Bad Request",
+  "intuit_tid": "1-64b75ebb-5dd33bd3461cf6d0442f5e18"
+}
+2023-07-19T03:55:52.867Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=anVg49EL-vDm-n5ujhmeuuQ2pIP6MYdG9P7k
+2023-07-19T03:55:53.963Z error: Create Token () threw an exception : {
+  "authResponse": {
+    "token": {
+      "realmId": "",
+      "token_type": "",
+      "access_token": "",
+      "refresh_token": "",
+      "expires_in": 0,
+      "x_refresh_token_expires_in": 0,
+      "id_token": "",
+      "latency": 60000,
+      "createdAt": 1689738952864,
+      "state": "anVg49EL-vDm-n5ujhmeuuQ2pIP6MYdG9P7k"
+    },
+    "response": {
+      "url": "https://oauth.platform.intuit.com/oauth2/v1/tokens/bearer",
+      "headers": {
+        "date": "Wed, 19 Jul 2023 03:55:53 GMT",
+        "content-type": "application/json;charset=utf-8",
+        "content-length": "27",
+        "connection": "close",
+        "x-spanid": "e66176c2-a00b-7b58-acaf-7868239cbac4",
+        "x-amzn-trace-id": "Root=1-64b75ec9-62473f8a663de4620b7ecc49",
+        "x-content-type-options": "nosniff",
+        "server": "istio-envoy",
+        "cache-control": "no-cache, no-store",
+        "pragma": "no-cache",
+        "x-envoy-upstream-service-time": "4",
+        "strict-transport-security": "max-age=31536000",
+        "intuit_tid": "1-64b75ec9-62473f8a663de4620b7ecc49",
+        "x-request-id": "1-64b75ec9-62473f8a663de4620b7ecc49",
+        "x-envoy-decorator-operation": "usw2-prd-id06-intuit-gateway-active-service.services-gateway-apigwid-usw2-prd-id06.svc.cluster.local:7000/*"
+      },
+      "body": "{\"error\":\"invalid_request\"}",
+      "status": 400,
+      "statusText": "Bad Request"
+    },
+    "body": "{\"error\":\"invalid_request\"}",
+    "json": {
+      "error": "invalid_request"
+    },
+    "intuit_tid": "1-64b75ec9-62473f8a663de4620b7ecc49"
+  },
+  "originalMessage": "Response has an Error",
+  "error": "invalid_request",
+  "error_description": "Bad Request",
+  "intuit_tid": "1-64b75ec9-62473f8a663de4620b7ecc49"
+}
+2023-07-19T03:57:39.213Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=CggkL094-lQf1k4f6lYrBNhWhF9L-t8597qc
+2023-07-19T03:57:40.390Z error: Create Token () threw an exception : {
+  "authResponse": {
+    "token": {
+      "realmId": "",
+      "token_type": "",
+      "access_token": "",
+      "refresh_token": "",
+      "expires_in": 0,
+      "x_refresh_token_expires_in": 0,
+      "id_token": "",
+      "latency": 60000,
+      "createdAt": 1689739059209,
+      "state": "CggkL094-lQf1k4f6lYrBNhWhF9L-t8597qc"
+    },
+    "response": {
+      "url": "https://oauth.platform.intuit.com/oauth2/v1/tokens/bearer",
+      "headers": {
+        "date": "Wed, 19 Jul 2023 03:57:40 GMT",
+        "content-type": "application/json;charset=utf-8",
+        "content-length": "27",
+        "connection": "close",
+        "x-spanid": "427ca0cb-88c8-5771-922c-d105084b5154",
+        "x-amzn-trace-id": "Root=1-64b75f34-5c28a7c92dbbde7a7e382ab0",
+        "x-content-type-options": "nosniff",
+        "server": "istio-envoy",
+        "cache-control": "no-cache, no-store",
+        "pragma": "no-cache",
+        "x-envoy-upstream-service-time": "3",
+        "strict-transport-security": "max-age=31536000",
+        "intuit_tid": "1-64b75f34-5c28a7c92dbbde7a7e382ab0",
+        "x-request-id": "1-64b75f34-5c28a7c92dbbde7a7e382ab0",
+        "x-envoy-decorator-operation": "usw2-prd-id06-intuit-gateway-active-service.services-gateway-apigwid-usw2-prd-id06.svc.cluster.local:7000/*"
+      },
+      "body": "{\"error\":\"invalid_request\"}",
+      "status": 400,
+      "statusText": "Bad Request"
+    },
+    "body": "{\"error\":\"invalid_request\"}",
+    "json": {
+      "error": "invalid_request"
+    },
+    "intuit_tid": "1-64b75f34-5c28a7c92dbbde7a7e382ab0"
+  },
+  "originalMessage": "Response has an Error",
+  "error": "invalid_request",
+  "error_description": "Bad Request",
+  "intuit_tid": "1-64b75f34-5c28a7c92dbbde7a7e382ab0"
+}
+2023-07-19T03:57:50.667Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=d5Jnt0iB-NXYYAGMs-I13DpPfaYRsiAE7XNA
+2023-07-19T03:57:51.852Z error: Create Token () threw an exception : {
+  "authResponse": {
+    "token": {
+      "realmId": "",
+      "token_type": "",
+      "access_token": "",
+      "refresh_token": "",
+      "expires_in": 0,
+      "x_refresh_token_expires_in": 0,
+      "id_token": "",
+      "latency": 60000,
+      "createdAt": 1689739070663,
+      "state": "d5Jnt0iB-NXYYAGMs-I13DpPfaYRsiAE7XNA"
+    },
+    "response": {
+      "url": "https://oauth.platform.intuit.com/oauth2/v1/tokens/bearer",
+      "headers": {
+        "date": "Wed, 19 Jul 2023 03:57:51 GMT",
+        "content-type": "application/json;charset=utf-8",
+        "content-length": "27",
+        "connection": "close",
+        "x-spanid": "9d8d875d-7085-fc7e-8c0c-bc1a13815088",
+        "x-amzn-trace-id": "Root=1-64b75f3f-3aa0fc6274d68d2423937bf1",
+        "x-content-type-options": "nosniff",
+        "server": "istio-envoy",
+        "cache-control": "no-cache, no-store",
+        "pragma": "no-cache",
+        "x-envoy-upstream-service-time": "3",
+        "strict-transport-security": "max-age=31536000",
+        "intuit_tid": "1-64b75f3f-3aa0fc6274d68d2423937bf1",
+        "x-request-id": "1-64b75f3f-3aa0fc6274d68d2423937bf1",
+        "x-envoy-decorator-operation": "usw2-prd-id06-intuit-gateway-active-service.services-gateway-apigwid-usw2-prd-id06.svc.cluster.local:7000/*"
+      },
+      "body": "{\"error\":\"invalid_request\"}",
+      "status": 400,
+      "statusText": "Bad Request"
+    },
+    "body": "{\"error\":\"invalid_request\"}",
+    "json": {
+      "error": "invalid_request"
+    },
+    "intuit_tid": "1-64b75f3f-3aa0fc6274d68d2423937bf1"
+  },
+  "originalMessage": "Response has an Error",
+  "error": "invalid_request",
+  "error_description": "Bad Request",
+  "intuit_tid": "1-64b75f3f-3aa0fc6274d68d2423937bf1"
+}
+2023-07-19T03:57:59.790Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=63MbAn3d-3rzQ-gzdJjmNoGGTk5PT21N3vYw
+2023-07-19T03:58:03.612Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=jQdJiPV9-I9P-pEAAusoc2UecRZGxPEhB0ww
+2023-07-19T03:58:04.730Z error: Create Token () threw an exception : {
+  "authResponse": {
+    "token": {
+      "realmId": "",
+      "token_type": "",
+      "access_token": "",
+      "refresh_token": "",
+      "expires_in": 0,
+      "x_refresh_token_expires_in": 0,
+      "id_token": "",
+      "latency": 60000,
+      "createdAt": 1689739083608,
+      "state": "jQdJiPV9-I9P-pEAAusoc2UecRZGxPEhB0ww"
+    },
+    "response": {
+      "url": "https://oauth.platform.intuit.com/oauth2/v1/tokens/bearer",
+      "headers": {
+        "date": "Wed, 19 Jul 2023 03:58:04 GMT",
+        "content-type": "application/json;charset=utf-8",
+        "content-length": "27",
+        "connection": "close",
+        "x-spanid": "27c7d3c0-4d4a-9f4e-abf7-807e573281ef",
+        "x-amzn-trace-id": "Root=1-64b75f4c-5cb2f75963d87c2b68a26b6b",
+        "x-content-type-options": "nosniff",
+        "server": "istio-envoy",
+        "cache-control": "no-cache, no-store",
+        "pragma": "no-cache",
+        "x-envoy-upstream-service-time": "3",
+        "strict-transport-security": "max-age=31536000",
+        "intuit_tid": "1-64b75f4c-5cb2f75963d87c2b68a26b6b",
+        "x-request-id": "1-64b75f4c-5cb2f75963d87c2b68a26b6b",
+        "x-envoy-decorator-operation": "usw2-prd-id06-intuit-gateway-active-service.services-gateway-apigwid-usw2-prd-id06.svc.cluster.local:7000/*"
+      },
+      "body": "{\"error\":\"invalid_request\"}",
+      "status": 400,
+      "statusText": "Bad Request"
+    },
+    "body": "{\"error\":\"invalid_request\"}",
+    "json": {
+      "error": "invalid_request"
+    },
+    "intuit_tid": "1-64b75f4c-5cb2f75963d87c2b68a26b6b"
+  },
+  "originalMessage": "Response has an Error",
+  "error": "invalid_request",
+  "error_description": "Bad Request",
+  "intuit_tid": "1-64b75f4c-5cb2f75963d87c2b68a26b6b"
+}
+2023-07-19T03:58:08.593Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=FNTLICEj-tJxXj5BxQ61de_FCTqQai2UZzDM
+2023-07-19T03:58:08.595Z error: Create Token () threw an exception : {}
+2023-07-19T03:58:28.075Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=w7FVrOyP-3SwE5wnxUJnVYXNn6IlbjOK6aHM
+2023-07-19T03:58:28.077Z error: Create Token () threw an exception : {}
+2023-07-19T03:58:33.272Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=ZEEfKb3I-cThh753GI5gTjEtwjjJPTNCL0eM
+2023-07-19T03:58:33.274Z error: Create Token () threw an exception : {}
+2023-07-19T03:59:44.098Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=otSWPCvt-pmJXz5xnw2nXjncA7hga61X5Jac
+2023-07-19T03:59:48.424Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=WL54dE5s-e97ARnCLJhkURS8w4jtBsg0f_KU
+2023-07-19T03:59:48.428Z error: Create Token () threw an exception : {}
+2023-07-19T04:04:04.183Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=MjwBJgLy-RSOe29mPIGhM1nwIXTeDA8EInk0
+2023-07-19T04:04:05.324Z error: Create Token () threw an exception : {
+  "authResponse": {
+    "token": {
+      "realmId": "",
+      "token_type": "",
+      "access_token": "",
+      "refresh_token": "",
+      "expires_in": 0,
+      "x_refresh_token_expires_in": 0,
+      "id_token": "",
+      "latency": 60000,
+      "createdAt": 1689739444179,
+      "state": "MjwBJgLy-RSOe29mPIGhM1nwIXTeDA8EInk0"
+    },
+    "response": {
+      "url": "https://oauth.platform.intuit.com/oauth2/v1/tokens/bearer",
+      "headers": {
+        "date": "Wed, 19 Jul 2023 04:04:05 GMT",
+        "content-type": "application/json;charset=utf-8",
+        "content-length": "27",
+        "connection": "close",
+        "x-spanid": "b1d07678-d182-8742-b404-a756f132c328",
+        "x-amzn-trace-id": "Root=1-64b760b5-432e243c593a16e705ef7541",
+        "x-content-type-options": "nosniff",
+        "server": "istio-envoy",
+        "cache-control": "no-cache, no-store",
+        "pragma": "no-cache",
+        "x-envoy-upstream-service-time": "3",
+        "strict-transport-security": "max-age=31536000",
+        "intuit_tid": "1-64b760b5-432e243c593a16e705ef7541",
+        "x-request-id": "1-64b760b5-432e243c593a16e705ef7541",
+        "x-envoy-decorator-operation": "usw2-prd-id06-intuit-gateway-active-service.services-gateway-apigwid-usw2-prd-id06.svc.cluster.local:7000/*"
+      },
+      "body": "{\"error\":\"invalid_request\"}",
+      "status": 400,
+      "statusText": "Bad Request"
+    },
+    "body": "{\"error\":\"invalid_request\"}",
+    "json": {
+      "error": "invalid_request"
+    },
+    "intuit_tid": "1-64b760b5-432e243c593a16e705ef7541"
+  },
+  "originalMessage": "Response has an Error",
+  "error": "invalid_request",
+  "error_description": "Bad Request",
+  "intuit_tid": "1-64b760b5-432e243c593a16e705ef7541"
+}
+2023-07-19T04:04:46.306Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=IWKD06Vg-n6k3Xt-ix6emiz5xtaBsJaZY79U
+2023-07-19T04:04:47.456Z error: Create Token () threw an exception : {
+  "authResponse": {
+    "token": {
+      "realmId": "",
+      "token_type": "",
+      "access_token": "",
+      "refresh_token": "",
+      "expires_in": 0,
+      "x_refresh_token_expires_in": 0,
+      "id_token": "",
+      "latency": 60000,
+      "createdAt": 1689739486301,
+      "state": "IWKD06Vg-n6k3Xt-ix6emiz5xtaBsJaZY79U"
+    },
+    "response": {
+      "url": "https://oauth.platform.intuit.com/oauth2/v1/tokens/bearer",
+      "headers": {
+        "date": "Wed, 19 Jul 2023 04:04:47 GMT",
+        "content-type": "application/json;charset=utf-8",
+        "content-length": "27",
+        "connection": "close",
+        "x-spanid": "281b09ee-7f78-df36-1b0f-1e31ccdf43d9",
+        "x-amzn-trace-id": "Root=1-64b760df-6b0b11a7628e74e80fb8f940",
+        "x-content-type-options": "nosniff",
+        "server": "istio-envoy",
+        "cache-control": "no-cache, no-store",
+        "pragma": "no-cache",
+        "x-envoy-upstream-service-time": "3",
+        "strict-transport-security": "max-age=31536000",
+        "intuit_tid": "1-64b760df-6b0b11a7628e74e80fb8f940",
+        "x-request-id": "1-64b760df-6b0b11a7628e74e80fb8f940",
+        "x-envoy-decorator-operation": "usw2-prd-id06-intuit-gateway-active-service.services-gateway-apigwid-usw2-prd-id06.svc.cluster.local:7000/*"
+      },
+      "body": "{\"error\":\"invalid_request\"}",
+      "status": 400,
+      "statusText": "Bad Request"
+    },
+    "body": "{\"error\":\"invalid_request\"}",
+    "json": {
+      "error": "invalid_request"
+    },
+    "intuit_tid": "1-64b760df-6b0b11a7628e74e80fb8f940"
+  },
+  "originalMessage": "Response has an Error",
+  "error": "invalid_request",
+  "error_description": "Bad Request",
+  "intuit_tid": "1-64b760df-6b0b11a7628e74e80fb8f940"
+}
+2023-07-19T04:07:42.606Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=NljuvLKa-MvdItcVLyLVu9ad51UHdslca1pI
+2023-07-19T04:07:53.533Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=1UkuwuDX-Zpw75dcADfyvVnWlyCAKMaZ69wM
+2023-07-19T04:08:15.190Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=bdx010WA-30ILhncOmmoWOvMsn0Asr3hspFU
+2023-07-19T04:08:26.065Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=HjknIddH-eTDhbwA658KbZJ-_HvqhJZuqBNo
+2023-07-19T04:11:27.341Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=fb2iwC1u-f2GDYY8u6_M9L45aE9fFwe7bJWs
+2023-07-19T04:11:30.667Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=MXdPXayT-vulTUaTjhIw_xCW0D4dGRZJNYR8
+2023-07-19T04:11:37.414Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=nJe9uzht-dfgktn_CIO8THGBSinl-_dZJRII
+2023-07-19T04:11:41.698Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=aJDdiFnp-bAwoX_efdvrqznXRR7YTSB7oo8A
+2023-07-19T04:15:08.361Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=mQ43hGeG--OpzMwtmTGkJ9RczznnWePBJWik
+2023-07-19T04:17:25.585Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=u9FuHcRY-LOf6_HQcXO1QrSItA1WCB5nwZeQ
+2023-07-19T04:17:38.118Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=AETFc5a1-nb3gDrAWebRrFTnbn6LvjTnUiwE
+2023-07-19T04:18:08.317Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=OfcA8ktW-Ky6GfxrO5PS7kO1rvB5e--5KnIw
+2023-07-19T04:18:15.288Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=NomUCfTD-j97QgtmZn-c984i3NbLIr_HRpis
+2023-07-19T04:18:18.973Z error: Create Token () threw an exception : {
+  "authResponse": {
+    "token": {
+      "realmId": "",
+      "token_type": "",
+      "access_token": "",
+      "refresh_token": "",
+      "expires_in": 0,
+      "x_refresh_token_expires_in": 0,
+      "id_token": "",
+      "latency": 60000,
+      "createdAt": 1689740295276
+    },
+    "response": {
+      "url": "https://oauth.platform.intuit.com/oauth2/v1/tokens/bearer",
+      "headers": {
+        "date": "Wed, 19 Jul 2023 04:18:18 GMT",
+        "content-type": "application/json;charset=utf-8",
+        "content-length": "27",
+        "connection": "close",
+        "x-spanid": "649fd7d6-ff3a-a9cd-f20b-351eeaa0ef64",
+        "x-amzn-trace-id": "Root=1-64b7640a-4df4f30e0f892adc27730333",
+        "x-content-type-options": "nosniff",
+        "server": "istio-envoy",
+        "cache-control": "no-cache, no-store",
+        "pragma": "no-cache",
+        "x-envoy-upstream-service-time": "3",
+        "strict-transport-security": "max-age=31536000",
+        "intuit_tid": "1-64b7640a-4df4f30e0f892adc27730333",
+        "x-request-id": "1-64b7640a-4df4f30e0f892adc27730333",
+        "x-envoy-decorator-operation": "usw2-prd-id06-intuit-gateway-active-service.services-gateway-apigwid-usw2-prd-id06.svc.cluster.local:7000/*"
+      },
+      "body": "{\"error\":\"invalid_request\"}",
+      "status": 400,
+      "statusText": "Bad Request"
+    },
+    "body": "{\"error\":\"invalid_request\"}",
+    "json": {
+      "error": "invalid_request"
+    },
+    "intuit_tid": "1-64b7640a-4df4f30e0f892adc27730333"
+  },
+  "originalMessage": "Response has an Error",
+  "error": "invalid_request",
+  "error_description": "Bad Request",
+  "intuit_tid": "1-64b7640a-4df4f30e0f892adc27730333"
+}
+2023-07-19T04:18:34.320Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=DrTW3rVM-MC4AVRF-_b2Bvq1TRKgEKWs9wsA
+2023-07-19T04:18:37.399Z error: Create Token () threw an exception : {
+  "authResponse": {
+    "token": {
+      "realmId": "",
+      "token_type": "",
+      "access_token": "",
+      "refresh_token": "",
+      "expires_in": 0,
+      "x_refresh_token_expires_in": 0,
+      "id_token": "",
+      "latency": 60000,
+      "createdAt": 1689740314316
+    },
+    "response": {
+      "url": "https://oauth.platform.intuit.com/oauth2/v1/tokens/bearer",
+      "headers": {
+        "date": "Wed, 19 Jul 2023 04:18:37 GMT",
+        "content-type": "application/json;charset=utf-8",
+        "content-length": "27",
+        "connection": "close",
+        "x-spanid": "cb932037-50e1-931a-6fa6-178a51e6297a",
+        "x-amzn-trace-id": "Root=1-64b7641d-162c2af658d9e8342bd43ff9",
+        "x-content-type-options": "nosniff",
+        "server": "istio-envoy",
+        "cache-control": "no-cache, no-store",
+        "pragma": "no-cache",
+        "x-envoy-upstream-service-time": "3",
+        "strict-transport-security": "max-age=31536000",
+        "intuit_tid": "1-64b7641d-162c2af658d9e8342bd43ff9",
+        "x-request-id": "1-64b7641d-162c2af658d9e8342bd43ff9",
+        "x-envoy-decorator-operation": "usw2-prd-id06-intuit-gateway-active-service.services-gateway-apigwid-usw2-prd-id06.svc.cluster.local:7000/*"
+      },
+      "body": "{\"error\":\"invalid_request\"}",
+      "status": 400,
+      "statusText": "Bad Request"
+    },
+    "body": "{\"error\":\"invalid_request\"}",
+    "json": {
+      "error": "invalid_request"
+    },
+    "intuit_tid": "1-64b7641d-162c2af658d9e8342bd43ff9"
+  },
+  "originalMessage": "Response has an Error",
+  "error": "invalid_request",
+  "error_description": "Bad Request",
+  "intuit_tid": "1-64b7641d-162c2af658d9e8342bd43ff9"
+}
+2023-07-19T04:18:51.463Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=tJAu09R1-0wb3FgnF7A8XKjddym2xQ93chKY
+2023-07-19T04:18:57.949Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=QCzdfIDw-gM7qjkGUwgRwhosZRCGwyGpoa74
+2023-07-19T04:19:04.924Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=prTqf6ZV-nqY0LxJT4BmZofdMnyaQ3ZfSq_E
+2023-07-19T04:19:15.553Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=Wzccr2IF-qJ8--g4nybQMbPTSPK_RbmECg80
+2023-07-19T04:19:22.194Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=TAiGCz2L-OCq7B2xZydA22d6KmzpmlkePLmA
+2023-07-19T04:19:30.528Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=jbs73JSJ-5kNF2lN3uWmCVLhK8fqZJRB-_mo
+2023-07-19T04:20:08.278Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=5QYw8afs-r_fcQilOOqPbSUYUK5OfgVJ3ZMI
+2023-07-19T04:20:12.239Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=CR2NgRml-lnevvbyBJ2yLfWa2EtoQRsM-aSk
+2023-07-19T04:20:15.766Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=NMeMqn5k-HYPUY-mZUW0QXhbd_ak3JOZQBNU
+2023-07-19T04:20:27.041Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=7nPKMU6T-JVC2Uz9WV99CzSoAxILrGWIvvPI
+2023-07-19T04:21:29.733Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=gBDeQwEM-FNSb_83_s4T4bFg3n8GWzTeuI0I
+2023-07-19T04:21:41.215Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=HEUZ4b5g-qux7nZ8NE5OgaJqfiydqd7R3Od8
+2023-07-19T04:21:44.611Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=VFyAYEbX-sK_CIlNVZ-o2A4faiWPHb6ZBboM
+2023-07-19T04:21:49.635Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=YVy5BI3d-jEyih0mfPGMK3QaUe7n_3zsvSmA
+2023-07-19T04:21:53.705Z error: Create Token () threw an exception : {
+  "authResponse": {
+    "token": {
+      "realmId": "",
+      "token_type": "",
+      "access_token": "",
+      "refresh_token": "",
+      "expires_in": 0,
+      "x_refresh_token_expires_in": 0,
+      "id_token": "",
+      "latency": 60000,
+      "createdAt": 1689740509626
+    },
+    "response": {
+      "url": "https://oauth.platform.intuit.com/oauth2/v1/tokens/bearer",
+      "headers": {
+        "date": "Wed, 19 Jul 2023 04:21:53 GMT",
+        "content-type": "application/json;charset=utf-8",
+        "content-length": "27",
+        "connection": "close",
+        "x-spanid": "b19fc6a1-bc4d-7cc8-260d-5803a419ecc7",
+        "x-amzn-trace-id": "Root=1-64b764e1-00936c2d7e1830d967f10e4c",
+        "x-content-type-options": "nosniff",
+        "server": "istio-envoy",
+        "cache-control": "no-cache, no-store",
+        "pragma": "no-cache",
+        "x-envoy-upstream-service-time": "3",
+        "strict-transport-security": "max-age=31536000",
+        "intuit_tid": "1-64b764e1-00936c2d7e1830d967f10e4c",
+        "x-request-id": "1-64b764e1-00936c2d7e1830d967f10e4c",
+        "x-envoy-decorator-operation": "usw2-prd-id06-intuit-gateway-active-service.services-gateway-apigwid-usw2-prd-id06.svc.cluster.local:7000/*"
+      },
+      "body": "{\"error\":\"invalid_request\"}",
+      "status": 400,
+      "statusText": "Bad Request"
+    },
+    "body": "{\"error\":\"invalid_request\"}",
+    "json": {
+      "error": "invalid_request"
+    },
+    "intuit_tid": "1-64b764e1-00936c2d7e1830d967f10e4c"
+  },
+  "originalMessage": "Response has an Error",
+  "error": "invalid_request",
+  "error_description": "Bad Request",
+  "intuit_tid": "1-64b764e1-00936c2d7e1830d967f10e4c"
+}
+2023-07-19T04:22:00.864Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=kiVOaPMc-vXfNBWwx2O7FqARQH3M_NOmaNEk
+2023-07-19T04:22:03.916Z error: Create Token () threw an exception : {
+  "authResponse": {
+    "token": {
+      "realmId": "",
+      "token_type": "",
+      "access_token": "",
+      "refresh_token": "",
+      "expires_in": 0,
+      "x_refresh_token_expires_in": 0,
+      "id_token": "",
+      "latency": 60000,
+      "createdAt": 1689740520860
+    },
+    "response": {
+      "url": "https://oauth.platform.intuit.com/oauth2/v1/tokens/bearer",
+      "headers": {
+        "date": "Wed, 19 Jul 2023 04:22:03 GMT",
+        "content-type": "application/json;charset=utf-8",
+        "content-length": "27",
+        "connection": "close",
+        "x-spanid": "e0905b34-8475-cad8-5e5b-e0cc925b346b",
+        "x-amzn-trace-id": "Root=1-64b764eb-608913eb0f12eb9c2d24021b",
+        "x-content-type-options": "nosniff",
+        "server": "istio-envoy",
+        "cache-control": "no-cache, no-store",
+        "pragma": "no-cache",
+        "x-envoy-upstream-service-time": "3",
+        "strict-transport-security": "max-age=31536000",
+        "intuit_tid": "1-64b764eb-608913eb0f12eb9c2d24021b",
+        "x-request-id": "1-64b764eb-608913eb0f12eb9c2d24021b",
+        "x-envoy-decorator-operation": "usw2-prd-id06-intuit-gateway-active-service.services-gateway-apigwid-usw2-prd-id06.svc.cluster.local:7000/*"
+      },
+      "body": "{\"error\":\"invalid_request\"}",
+      "status": 400,
+      "statusText": "Bad Request"
+    },
+    "body": "{\"error\":\"invalid_request\"}",
+    "json": {
+      "error": "invalid_request"
+    },
+    "intuit_tid": "1-64b764eb-608913eb0f12eb9c2d24021b"
+  },
+  "originalMessage": "Response has an Error",
+  "error": "invalid_request",
+  "error_description": "Bad Request",
+  "intuit_tid": "1-64b764eb-608913eb0f12eb9c2d24021b"
+}
+2023-07-19T04:23:24.660Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid&state=KZRNPZp3-oCISuE2NDTdMd2CQf9SU1rCK30w
+2023-07-19T04:23:28.575Z error: Create Token () threw an exception : {
+  "authResponse": {
+    "token": {
+      "realmId": "",
+      "token_type": "",
+      "access_token": "",
+      "refresh_token": "",
+      "expires_in": 0,
+      "x_refresh_token_expires_in": 0,
+      "id_token": "",
+      "latency": 60000,
+      "createdAt": 1689740604656
+    },
+    "response": {
+      "url": "https://oauth.platform.intuit.com/oauth2/v1/tokens/bearer",
+      "headers": {
+        "date": "Wed, 19 Jul 2023 04:23:28 GMT",
+        "content-type": "application/json;charset=utf-8",
+        "content-length": "27",
+        "connection": "close",
+        "x-spanid": "0eccf846-79c2-17c8-8a64-8796e6175d00",
+        "x-amzn-trace-id": "Root=1-64b76540-5762a5062c2a8bcd7d58c997",
+        "x-content-type-options": "nosniff",
+        "server": "istio-envoy",
+        "cache-control": "no-cache, no-store",
+        "pragma": "no-cache",
+        "x-envoy-upstream-service-time": "3",
+        "strict-transport-security": "max-age=31536000",
+        "intuit_tid": "1-64b76540-5762a5062c2a8bcd7d58c997",
+        "x-request-id": "1-64b76540-5762a5062c2a8bcd7d58c997",
+        "x-envoy-decorator-operation": "usw2-prd-id06-intuit-gateway-active-service.services-gateway-apigwid-usw2-prd-id06.svc.cluster.local:7000/*"
+      },
+      "body": "{\"error\":\"invalid_request\"}",
+      "status": 400,
+      "statusText": "Bad Request"
+    },
+    "body": "{\"error\":\"invalid_request\"}",
+    "json": {
+      "error": "invalid_request"
+    },
+    "intuit_tid": "1-64b76540-5762a5062c2a8bcd7d58c997"
+  },
+  "originalMessage": "Response has an Error",
+  "error": "invalid_request",
+  "error_description": "Bad Request",
+  "intuit_tid": "1-64b76540-5762a5062c2a8bcd7d58c997"
+}
+2023-07-19T04:25:17.103Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid%20profile&state=sDlX8hFH-0jPrSd_3naUgfw8azexsp_lNBgo
+2023-07-19T04:25:23.146Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid%20profile%20email&state=RbPFg3mA-BU7Mc0D2JKWFcEtIjnzGsxdz3Ss
+2023-07-19T04:25:28.219Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid%20profile%20email&state=oN8eCgs3-85tuZ1_QBOYLG4iGUiKb0k721BE
+2023-07-19T04:25:31.509Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid%20profile%20email&state=zRMB3GFz-UrL-0bf1aFbzn95IZqBXs8V2ceA
+2023-07-19T04:25:40.364Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid%20profile%20email&state=AJBqhZD9-DUvYAziZEHfCIohgvQJlYZ6nFvg
+2023-07-19T04:25:44.086Z error: Create Token () threw an exception : {
+  "authResponse": {
+    "token": {
+      "realmId": "",
+      "token_type": "",
+      "access_token": "",
+      "refresh_token": "",
+      "expires_in": 0,
+      "x_refresh_token_expires_in": 0,
+      "id_token": "",
+      "latency": 60000,
+      "createdAt": 1689740740357
+    },
+    "response": {
+      "url": "https://oauth.platform.intuit.com/oauth2/v1/tokens/bearer",
+      "headers": {
+        "date": "Wed, 19 Jul 2023 04:25:43 GMT",
+        "content-type": "application/json;charset=utf-8",
+        "content-length": "27",
+        "connection": "close",
+        "x-spanid": "162443dc-9fde-9eeb-17ac-98762cee09ef",
+        "x-amzn-trace-id": "Root=1-64b765c7-51262cd8397ed1f51dab6351",
+        "x-content-type-options": "nosniff",
+        "server": "istio-envoy",
+        "cache-control": "no-cache, no-store",
+        "pragma": "no-cache",
+        "x-envoy-upstream-service-time": "4",
+        "strict-transport-security": "max-age=31536000",
+        "intuit_tid": "1-64b765c7-51262cd8397ed1f51dab6351",
+        "x-request-id": "1-64b765c7-51262cd8397ed1f51dab6351",
+        "x-envoy-decorator-operation": "usw2-prd-id06-intuit-gateway-active-service.services-gateway-apigwid-usw2-prd-id06.svc.cluster.local:7000/*"
+      },
+      "body": "{\"error\":\"invalid_request\"}",
+      "status": 400,
+      "statusText": "Bad Request"
+    },
+    "body": "{\"error\":\"invalid_request\"}",
+    "json": {
+      "error": "invalid_request"
+    },
+    "intuit_tid": "1-64b765c7-51262cd8397ed1f51dab6351"
+  },
+  "originalMessage": "Response has an Error",
+  "error": "invalid_request",
+  "error_description": "Bad Request",
+  "intuit_tid": "1-64b765c7-51262cd8397ed1f51dab6351"
+}
+2023-07-19T04:25:47.932Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid%20profile%20email%20phone&state=GtndaIHI-5M3VpVTLtO208rxC0Cg02luFQW0
+2023-07-19T04:25:53.727Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid%20profile%20email%20phone%20address&state=7PlwBIxZ-FZtUMhk6_LFbsub6e8XzeioR9RM
+2023-07-19T04:25:57.026Z error: Create Token () threw an exception : {
+  "authResponse": {
+    "token": {
+      "realmId": "",
+      "token_type": "",
+      "access_token": "",
+      "refresh_token": "",
+      "expires_in": 0,
+      "x_refresh_token_expires_in": 0,
+      "id_token": "",
+      "latency": 60000,
+      "createdAt": 1689740753724
+    },
+    "response": {
+      "url": "https://oauth.platform.intuit.com/oauth2/v1/tokens/bearer",
+      "headers": {
+        "date": "Wed, 19 Jul 2023 04:25:56 GMT",
+        "content-type": "application/json;charset=utf-8",
+        "content-length": "27",
+        "connection": "close",
+        "x-spanid": "752b7be1-2569-9b44-5dfb-a019a068cdff",
+        "x-amzn-trace-id": "Root=1-64b765d4-17eaa4fb195fc19446ac8f4d",
+        "x-content-type-options": "nosniff",
+        "server": "istio-envoy",
+        "cache-control": "no-cache, no-store",
+        "pragma": "no-cache",
+        "x-envoy-upstream-service-time": "3",
+        "strict-transport-security": "max-age=31536000",
+        "intuit_tid": "1-64b765d4-17eaa4fb195fc19446ac8f4d",
+        "x-request-id": "1-64b765d4-17eaa4fb195fc19446ac8f4d",
+        "x-envoy-decorator-operation": "usw2-prd-id06-intuit-gateway-active-service.services-gateway-apigwid-usw2-prd-id06.svc.cluster.local:7000/*"
+      },
+      "body": "{\"error\":\"invalid_request\"}",
+      "status": 400,
+      "statusText": "Bad Request"
+    },
+    "body": "{\"error\":\"invalid_request\"}",
+    "json": {
+      "error": "invalid_request"
+    },
+    "intuit_tid": "1-64b765d4-17eaa4fb195fc19446ac8f4d"
+  },
+  "originalMessage": "Response has an Error",
+  "error": "invalid_request",
+  "error_description": "Bad Request",
+  "intuit_tid": "1-64b765d4-17eaa4fb195fc19446ac8f4d"
+}
+2023-07-19T04:26:40.857Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid%20profile%20email%20phone%20address&state=XbU6Dhxz-3QLsbyWs2cJld4wpK5yyB8U_jOY
+2023-07-19T04:26:44.395Z error: Create Token () threw an exception : {
+  "authResponse": {
+    "token": {
+      "realmId": "",
+      "token_type": "",
+      "access_token": "",
+      "refresh_token": "",
+      "expires_in": 0,
+      "x_refresh_token_expires_in": 0,
+      "id_token": "",
+      "latency": 60000,
+      "createdAt": 1689740800854
+    },
+    "response": {
+      "url": "https://oauth.platform.intuit.com/oauth2/v1/tokens/bearer",
+      "headers": {
+        "date": "Wed, 19 Jul 2023 04:26:44 GMT",
+        "content-type": "application/json;charset=utf-8",
+        "content-length": "27",
+        "connection": "close",
+        "x-spanid": "60010fe0-3454-f002-ffd1-cd6892b559fc",
+        "x-amzn-trace-id": "Root=1-64b76604-321aef7f6b8be27f67bd9dfc",
+        "x-content-type-options": "nosniff",
+        "server": "istio-envoy",
+        "cache-control": "no-cache, no-store",
+        "pragma": "no-cache",
+        "x-envoy-upstream-service-time": "3",
+        "strict-transport-security": "max-age=31536000",
+        "intuit_tid": "1-64b76604-321aef7f6b8be27f67bd9dfc",
+        "x-request-id": "1-64b76604-321aef7f6b8be27f67bd9dfc",
+        "x-envoy-decorator-operation": "usw2-prd-id06-intuit-gateway-active-service.services-gateway-apigwid-usw2-prd-id06.svc.cluster.local:7000/*"
+      },
+      "body": "{\"error\":\"invalid_request\"}",
+      "status": 400,
+      "statusText": "Bad Request"
+    },
+    "body": "{\"error\":\"invalid_request\"}",
+    "json": {
+      "error": "invalid_request"
+    },
+    "intuit_tid": "1-64b76604-321aef7f6b8be27f67bd9dfc"
+  },
+  "originalMessage": "Response has an Error",
+  "error": "invalid_request",
+  "error_description": "Bad Request",
+  "intuit_tid": "1-64b76604-321aef7f6b8be27f67bd9dfc"
+}
+2023-07-19T04:28:30.792Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid%20profile%20email%20phone%20address&state=HwqDIFhO-3nYIgRUQFHc7I7Y8DRdMJtEbt20
+2023-07-19T04:28:34.405Z error: Create Token () threw an exception : {
+  "authResponse": {
+    "token": {
+      "realmId": "",
+      "token_type": "",
+      "access_token": "",
+      "refresh_token": "",
+      "expires_in": 0,
+      "x_refresh_token_expires_in": 0,
+      "id_token": "",
+      "latency": 60000,
+      "createdAt": 1689740910788,
+      "state": "HwqDIFhO-3nYIgRUQFHc7I7Y8DRdMJtEbt20"
+    },
+    "response": {
+      "url": "https://oauth.platform.intuit.com/oauth2/v1/tokens/bearer",
+      "headers": {
+        "date": "Wed, 19 Jul 2023 04:28:34 GMT",
+        "content-type": "application/json;charset=utf-8",
+        "content-length": "27",
+        "connection": "close",
+        "x-spanid": "86718f45-73bf-ea37-ab7c-a30d6a52b907",
+        "x-amzn-trace-id": "Root=1-64b76672-2e751a8d0eeac18f0a2e1f33",
+        "x-content-type-options": "nosniff",
+        "server": "istio-envoy",
+        "cache-control": "no-cache, no-store",
+        "pragma": "no-cache",
+        "x-envoy-upstream-service-time": "4",
+        "strict-transport-security": "max-age=31536000",
+        "intuit_tid": "1-64b76672-2e751a8d0eeac18f0a2e1f33",
+        "x-request-id": "1-64b76672-2e751a8d0eeac18f0a2e1f33",
+        "x-envoy-decorator-operation": "usw2-prd-id06-intuit-gateway-active-service.services-gateway-apigwid-usw2-prd-id06.svc.cluster.local:7000/*"
+      },
+      "body": "{\"error\":\"invalid_request\"}",
+      "status": 400,
+      "statusText": "Bad Request"
+    },
+    "body": "{\"error\":\"invalid_request\"}",
+    "json": {
+      "error": "invalid_request"
+    },
+    "intuit_tid": "1-64b76672-2e751a8d0eeac18f0a2e1f33"
+  },
+  "originalMessage": "Response has an Error",
+  "error": "invalid_request",
+  "error_description": "Bad Request",
+  "intuit_tid": "1-64b76672-2e751a8d0eeac18f0a2e1f33"
+}
+2023-07-19T04:28:42.356Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid%20profile%20email%20phone%20address&state=Nr1m5rl4-Ao0s9ndJN06g7arcbC_IWSrD0N4
+2023-07-19T04:28:45.800Z error: Create Token () threw an exception : {
+  "authResponse": {
+    "token": {
+      "realmId": "",
+      "token_type": "",
+      "access_token": "",
+      "refresh_token": "",
+      "expires_in": 0,
+      "x_refresh_token_expires_in": 0,
+      "id_token": "",
+      "latency": 60000,
+      "createdAt": 1689740922352,
+      "state": "Nr1m5rl4-Ao0s9ndJN06g7arcbC_IWSrD0N4"
+    },
+    "response": {
+      "url": "https://oauth.platform.intuit.com/oauth2/v1/tokens/bearer",
+      "headers": {
+        "date": "Wed, 19 Jul 2023 04:28:45 GMT",
+        "content-type": "application/json;charset=utf-8",
+        "content-length": "27",
+        "connection": "close",
+        "x-spanid": "682b20f0-10ff-c75b-1004-92c6dd2a0e13",
+        "x-amzn-trace-id": "Root=1-64b7667d-56e5eca7415281621fe21cf6",
+        "x-content-type-options": "nosniff",
+        "server": "istio-envoy",
+        "cache-control": "no-cache, no-store",
+        "pragma": "no-cache",
+        "x-envoy-upstream-service-time": "3",
+        "strict-transport-security": "max-age=31536000",
+        "intuit_tid": "1-64b7667d-56e5eca7415281621fe21cf6",
+        "x-request-id": "1-64b7667d-56e5eca7415281621fe21cf6",
+        "x-envoy-decorator-operation": "usw2-prd-id06-intuit-gateway-active-service.services-gateway-apigwid-usw2-prd-id06.svc.cluster.local:7000/*"
+      },
+      "body": "{\"error\":\"invalid_request\"}",
+      "status": 400,
+      "statusText": "Bad Request"
+    },
+    "body": "{\"error\":\"invalid_request\"}",
+    "json": {
+      "error": "invalid_request"
+    },
+    "intuit_tid": "1-64b7667d-56e5eca7415281621fe21cf6"
+  },
+  "originalMessage": "Response has an Error",
+  "error": "invalid_request",
+  "error_description": "Bad Request",
+  "intuit_tid": "1-64b7667d-56e5eca7415281621fe21cf6"
+}
+2023-07-19T04:29:25.073Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid%20profile%20email%20phone%20address&state=wUHXJ1cq-cQ15q2HfbB3xUj-VB0cnnXdsHuA
+2023-07-19T04:29:28.359Z error: Create Token () threw an exception : {
+  "authResponse": {
+    "token": {
+      "realmId": "",
+      "token_type": "",
+      "access_token": "",
+      "refresh_token": "",
+      "expires_in": 0,
+      "x_refresh_token_expires_in": 0,
+      "id_token": "",
+      "latency": 60000,
+      "createdAt": 1689740965068,
+      "state": "wUHXJ1cq-cQ15q2HfbB3xUj-VB0cnnXdsHuA"
+    },
+    "response": {
+      "url": "https://oauth.platform.intuit.com/oauth2/v1/tokens/bearer",
+      "headers": {
+        "date": "Wed, 19 Jul 2023 04:29:28 GMT",
+        "content-type": "application/json;charset=utf-8",
+        "content-length": "27",
+        "connection": "close",
+        "x-spanid": "64def85d-e6f6-d4a6-d69e-ac1e8ab8e3e3",
+        "x-amzn-trace-id": "Root=1-64b766a8-60ac3a042b12c0e735c90b34",
+        "x-content-type-options": "nosniff",
+        "server": "istio-envoy",
+        "cache-control": "no-cache, no-store",
+        "pragma": "no-cache",
+        "x-envoy-upstream-service-time": "3",
+        "strict-transport-security": "max-age=31536000",
+        "intuit_tid": "1-64b766a8-60ac3a042b12c0e735c90b34",
+        "x-request-id": "1-64b766a8-60ac3a042b12c0e735c90b34",
+        "x-envoy-decorator-operation": "usw2-prd-id06-intuit-gateway-active-service.services-gateway-apigwid-usw2-prd-id06.svc.cluster.local:7000/*"
+      },
+      "body": "{\"error\":\"invalid_request\"}",
+      "status": 400,
+      "statusText": "Bad Request"
+    },
+    "body": "{\"error\":\"invalid_request\"}",
+    "json": {
+      "error": "invalid_request"
+    },
+    "intuit_tid": "1-64b766a8-60ac3a042b12c0e735c90b34"
+  },
+  "originalMessage": "Response has an Error",
+  "error": "invalid_request",
+  "error_description": "Bad Request",
+  "intuit_tid": "1-64b766a8-60ac3a042b12c0e735c90b34"
+}
+2023-07-19T04:29:40.764Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid%20profile%20email%20phone%20address&state=testState
+2023-07-19T04:29:44.130Z error: Create Token () threw an exception : {
+  "authResponse": {
+    "token": {
+      "realmId": "",
+      "token_type": "",
+      "access_token": "",
+      "refresh_token": "",
+      "expires_in": 0,
+      "x_refresh_token_expires_in": 0,
+      "id_token": "",
+      "latency": 60000,
+      "createdAt": 1689740980759,
+      "state": "testState"
+    },
+    "response": {
+      "url": "https://oauth.platform.intuit.com/oauth2/v1/tokens/bearer",
+      "headers": {
+        "date": "Wed, 19 Jul 2023 04:29:44 GMT",
+        "content-type": "application/json;charset=utf-8",
+        "content-length": "27",
+        "connection": "close",
+        "x-spanid": "ef55f223-fba1-b15f-a150-6c362d1a8c23",
+        "x-amzn-trace-id": "Root=1-64b766b8-159b8342492b9d7c3a3e5df9",
+        "x-content-type-options": "nosniff",
+        "server": "istio-envoy",
+        "cache-control": "no-cache, no-store",
+        "pragma": "no-cache",
+        "x-envoy-upstream-service-time": "3",
+        "strict-transport-security": "max-age=31536000",
+        "intuit_tid": "1-64b766b8-159b8342492b9d7c3a3e5df9",
+        "x-request-id": "1-64b766b8-159b8342492b9d7c3a3e5df9",
+        "x-envoy-decorator-operation": "usw2-prd-id06-intuit-gateway-active-service.services-gateway-apigwid-usw2-prd-id06.svc.cluster.local:7000/*"
+      },
+      "body": "{\"error\":\"invalid_request\"}",
+      "status": 400,
+      "statusText": "Bad Request"
+    },
+    "body": "{\"error\":\"invalid_request\"}",
+    "json": {
+      "error": "invalid_request"
+    },
+    "intuit_tid": "1-64b766b8-159b8342492b9d7c3a3e5df9"
+  },
+  "originalMessage": "Response has an Error",
+  "error": "invalid_request",
+  "error_description": "Bad Request",
+  "intuit_tid": "1-64b766b8-159b8342492b9d7c3a3e5df9"
+}
+2023-07-19T04:34:26.640Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid%20profile%20email%20phone%20address&state=testState
+2023-07-19T04:34:30.527Z error: Create Token () threw an exception : {
+  "authResponse": {
+    "token": {
+      "realmId": "",
+      "token_type": "",
+      "access_token": "",
+      "refresh_token": "",
+      "expires_in": 0,
+      "x_refresh_token_expires_in": 0,
+      "id_token": "",
+      "latency": 60000,
+      "createdAt": 1689741266636,
+      "state": "testState"
+    },
+    "response": {
+      "url": "https://oauth.platform.intuit.com/oauth2/v1/tokens/bearer",
+      "headers": {
+        "date": "Wed, 19 Jul 2023 04:34:30 GMT",
+        "content-type": "application/json;charset=utf-8",
+        "content-length": "27",
+        "connection": "close",
+        "x-spanid": "ce773cf8-9eb4-a068-7fcc-dad79a1956bd",
+        "x-amzn-trace-id": "Root=1-64b767d6-09f71c8951070f4a612dab70",
+        "x-content-type-options": "nosniff",
+        "server": "istio-envoy",
+        "cache-control": "no-cache, no-store",
+        "pragma": "no-cache",
+        "x-envoy-upstream-service-time": "3",
+        "strict-transport-security": "max-age=31536000",
+        "intuit_tid": "1-64b767d6-09f71c8951070f4a612dab70",
+        "x-request-id": "1-64b767d6-09f71c8951070f4a612dab70",
+        "x-envoy-decorator-operation": "usw2-prd-id06-intuit-gateway-active-service.services-gateway-apigwid-usw2-prd-id06.svc.cluster.local:7000/*"
+      },
+      "body": "{\"error\":\"invalid_request\"}",
+      "status": 400,
+      "statusText": "Bad Request"
+    },
+    "body": "{\"error\":\"invalid_request\"}",
+    "json": {
+      "error": "invalid_request"
+    },
+    "intuit_tid": "1-64b767d6-09f71c8951070f4a612dab70"
+  },
+  "originalMessage": "Response has an Error",
+  "error": "invalid_request",
+  "error_description": "Bad Request",
+  "intuit_tid": "1-64b767d6-09f71c8951070f4a612dab70"
+}
+2023-07-19T04:35:21.535Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid%20profile%20email%20phone%20address&state=testState
+2023-07-19T04:35:27.669Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid%20profile%20email%20phone%20address&state=testState
+2023-07-19T04:35:30.833Z error: Create Token () threw an exception : {
+  "authResponse": {
+    "token": {
+      "realmId": "",
+      "token_type": "",
+      "access_token": "",
+      "refresh_token": "",
+      "expires_in": 0,
+      "x_refresh_token_expires_in": 0,
+      "id_token": "",
+      "latency": 60000,
+      "createdAt": 1689741327663,
+      "state": "testState"
+    },
+    "response": {
+      "url": "https://oauth.platform.intuit.com/oauth2/v1/tokens/bearer",
+      "headers": {
+        "date": "Wed, 19 Jul 2023 04:35:30 GMT",
+        "content-type": "application/json;charset=utf-8",
+        "content-length": "27",
+        "connection": "close",
+        "x-spanid": "3089ea28-b6cb-802a-90c9-5563ca75df9b",
+        "x-amzn-trace-id": "Root=1-64b76812-4a5e42fd62eed9652dd40c27",
+        "x-content-type-options": "nosniff",
+        "server": "istio-envoy",
+        "cache-control": "no-cache, no-store",
+        "pragma": "no-cache",
+        "x-envoy-upstream-service-time": "2",
+        "strict-transport-security": "max-age=31536000",
+        "intuit_tid": "1-64b76812-4a5e42fd62eed9652dd40c27",
+        "x-request-id": "1-64b76812-4a5e42fd62eed9652dd40c27",
+        "x-envoy-decorator-operation": "usw2-prd-id06-intuit-gateway-active-service.services-gateway-apigwid-usw2-prd-id06.svc.cluster.local:7000/*"
+      },
+      "body": "{\"error\":\"invalid_request\"}",
+      "status": 400,
+      "statusText": "Bad Request"
+    },
+    "body": "{\"error\":\"invalid_request\"}",
+    "json": {
+      "error": "invalid_request"
+    },
+    "intuit_tid": "1-64b76812-4a5e42fd62eed9652dd40c27"
+  },
+  "originalMessage": "Response has an Error",
+  "error": "invalid_request",
+  "error_description": "Bad Request",
+  "intuit_tid": "1-64b76812-4a5e42fd62eed9652dd40c27"
+}
+2023-07-19T04:36:04.432Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fapp%2Fdeveloper%2Fplayground&response_type=code&scope=com.intuit.quickbooks.accounting%20openid%20profile%20email%20phone%20address&state=testState
+2023-07-19T04:36:07.933Z error: Create Token () threw an exception : {
+  "authResponse": {
+    "token": {
+      "realmId": "",
+      "token_type": "",
+      "access_token": "",
+      "refresh_token": "",
+      "expires_in": 0,
+      "x_refresh_token_expires_in": 0,
+      "id_token": "",
+      "latency": 60000,
+      "createdAt": 1689741364412,
+      "state": "testState"
+    },
+    "response": {
+      "url": "https://oauth.platform.intuit.com/oauth2/v1/tokens/bearer",
+      "headers": {
+        "date": "Wed, 19 Jul 2023 04:36:07 GMT",
+        "content-type": "application/json;charset=utf-8",
+        "content-length": "27",
+        "connection": "close",
+        "x-spanid": "46737a5b-749e-7438-2aac-bb4bb1743b18",
+        "x-amzn-trace-id": "Root=1-64b76837-0dbdbe05083d466c61461813",
+        "x-content-type-options": "nosniff",
+        "server": "istio-envoy",
+        "cache-control": "no-cache, no-store",
+        "pragma": "no-cache",
+        "x-envoy-upstream-service-time": "3",
+        "strict-transport-security": "max-age=31536000",
+        "intuit_tid": "1-64b76837-0dbdbe05083d466c61461813",
+        "x-request-id": "1-64b76837-0dbdbe05083d466c61461813",
+        "x-envoy-decorator-operation": "usw2-prd-id06-intuit-gateway-active-service.services-gateway-apigwid-usw2-prd-id06.svc.cluster.local:7000/*"
+      },
+      "body": "{\"error\":\"invalid_request\"}",
+      "status": 400,
+      "statusText": "Bad Request"
+    },
+    "body": "{\"error\":\"invalid_request\"}",
+    "json": {
+      "error": "invalid_request"
+    },
+    "intuit_tid": "1-64b76837-0dbdbe05083d466c61461813"
+  },
+  "originalMessage": "Response has an Error",
+  "error": "invalid_request",
+  "error_description": "Bad Request",
+  "intuit_tid": "1-64b76837-0dbdbe05083d466c61461813"
+}
+2023-07-19T04:36:36.520Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com&response_type=code&scope=com.intuit.quickbooks.accounting%20openid%20profile%20email%20phone%20address&state=testState
+2023-07-19T04:36:39.931Z error: Create Token () threw an exception : {
+  "authResponse": {
+    "token": {
+      "realmId": "",
+      "token_type": "",
+      "access_token": "",
+      "refresh_token": "",
+      "expires_in": 0,
+      "x_refresh_token_expires_in": 0,
+      "id_token": "",
+      "latency": 60000,
+      "createdAt": 1689741396493,
+      "state": "testState"
+    },
+    "response": {
+      "url": "https://oauth.platform.intuit.com/oauth2/v1/tokens/bearer",
+      "headers": {
+        "date": "Wed, 19 Jul 2023 04:36:39 GMT",
+        "content-type": "application/json;charset=utf-8",
+        "content-length": "27",
+        "connection": "close",
+        "x-spanid": "93996c4f-0d87-d832-d18c-e07234046a0a",
+        "x-amzn-trace-id": "Root=1-64b76857-2af0f10335f60c440b9c2dae",
+        "x-content-type-options": "nosniff",
+        "server": "istio-envoy",
+        "cache-control": "no-cache, no-store",
+        "pragma": "no-cache",
+        "x-envoy-upstream-service-time": "3",
+        "strict-transport-security": "max-age=31536000",
+        "intuit_tid": "1-64b76857-2af0f10335f60c440b9c2dae",
+        "x-request-id": "1-64b76857-2af0f10335f60c440b9c2dae",
+        "x-envoy-decorator-operation": "usw2-prd-id06-intuit-gateway-active-service.services-gateway-apigwid-usw2-prd-id06.svc.cluster.local:7000/*"
+      },
+      "body": "{\"error\":\"invalid_request\"}",
+      "status": 400,
+      "statusText": "Bad Request"
+    },
+    "body": "{\"error\":\"invalid_request\"}",
+    "json": {
+      "error": "invalid_request"
+    },
+    "intuit_tid": "1-64b76857-2af0f10335f60c440b9c2dae"
+  },
+  "originalMessage": "Response has an Error",
+  "error": "invalid_request",
+  "error_description": "Bad Request",
+  "intuit_tid": "1-64b76857-2af0f10335f60c440b9c2dae"
+}
+2023-07-19T04:37:26.726Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fapp%2Fdeveloper%2Fplayground&response_type=code&scope=com.intuit.quickbooks.accounting%20openid%20profile%20email%20phone%20address&state=testState
+2023-07-19T04:37:30.241Z error: Create Token () threw an exception : {
+  "authResponse": {
+    "token": {
+      "realmId": "",
+      "token_type": "",
+      "access_token": "",
+      "refresh_token": "",
+      "expires_in": 0,
+      "x_refresh_token_expires_in": 0,
+      "id_token": "",
+      "latency": 60000,
+      "createdAt": 1689741446719,
+      "state": "testState"
+    },
+    "response": {
+      "url": "https://oauth.platform.intuit.com/oauth2/v1/tokens/bearer",
+      "headers": {
+        "date": "Wed, 19 Jul 2023 04:37:30 GMT",
+        "content-type": "application/json;charset=utf-8",
+        "content-length": "27",
+        "connection": "close",
+        "x-spanid": "0cefcdfd-eae7-1667-7d5c-033bd117b189",
+        "x-amzn-trace-id": "Root=1-64b7688a-084dfb7371d18b370c53bbca",
+        "x-content-type-options": "nosniff",
+        "server": "istio-envoy",
+        "cache-control": "no-cache, no-store",
+        "pragma": "no-cache",
+        "x-envoy-upstream-service-time": "18",
+        "strict-transport-security": "max-age=31536000",
+        "intuit_tid": "1-64b7688a-084dfb7371d18b370c53bbca",
+        "x-request-id": "1-64b7688a-084dfb7371d18b370c53bbca",
+        "x-envoy-decorator-operation": "usw2-prd-id06-intuit-gateway-active-service.services-gateway-apigwid-usw2-prd-id06.svc.cluster.local:7000/*"
+      },
+      "body": "{\"error\":\"invalid_request\"}",
+      "status": 400,
+      "statusText": "Bad Request"
+    },
+    "body": "{\"error\":\"invalid_request\"}",
+    "json": {
+      "error": "invalid_request"
+    },
+    "intuit_tid": "1-64b7688a-084dfb7371d18b370c53bbca"
+  },
+  "originalMessage": "Response has an Error",
+  "error": "invalid_request",
+  "error_description": "Bad Request",
+  "intuit_tid": "1-64b7688a-084dfb7371d18b370c53bbca"
+}
+2023-07-19T04:38:04.513Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid%20profile%20email%20phone%20address&state=testState
+2023-07-19T04:38:08.043Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground&response_type=code&scope=com.intuit.quickbooks.accounting%20openid%20profile%20email%20phone%20address&state=testState
+2023-07-19T04:38:11.822Z error: Create Token () threw an exception : {
+  "authResponse": {
+    "token": {
+      "realmId": "",
+      "token_type": "",
+      "access_token": "",
+      "refresh_token": "",
+      "expires_in": 0,
+      "x_refresh_token_expires_in": 0,
+      "id_token": "",
+      "latency": 60000,
+      "createdAt": 1689741488023,
+      "state": "testState"
+    },
+    "response": {
+      "url": "https://oauth.platform.intuit.com/oauth2/v1/tokens/bearer",
+      "headers": {
+        "date": "Wed, 19 Jul 2023 04:38:11 GMT",
+        "content-type": "application/json;charset=utf-8",
+        "content-length": "27",
+        "connection": "close",
+        "x-spanid": "b1190152-f939-d0f7-4963-7a74772a3c4c",
+        "x-amzn-trace-id": "Root=1-64b768b3-74fab1752c8d691065d4ba13",
+        "x-content-type-options": "nosniff",
+        "server": "istio-envoy",
+        "cache-control": "no-cache, no-store",
+        "pragma": "no-cache",
+        "x-envoy-upstream-service-time": "3",
+        "strict-transport-security": "max-age=31536000",
+        "intuit_tid": "1-64b768b3-74fab1752c8d691065d4ba13",
+        "x-request-id": "1-64b768b3-74fab1752c8d691065d4ba13",
+        "x-envoy-decorator-operation": "usw2-prd-id06-intuit-gateway-active-service.services-gateway-apigwid-usw2-prd-id06.svc.cluster.local:7000/*"
+      },
+      "body": "{\"error\":\"invalid_request\"}",
+      "status": 400,
+      "statusText": "Bad Request"
+    },
+    "body": "{\"error\":\"invalid_request\"}",
+    "json": {
+      "error": "invalid_request"
+    },
+    "intuit_tid": "1-64b768b3-74fab1752c8d691065d4ba13"
+  },
+  "originalMessage": "Response has an Error",
+  "error": "invalid_request",
+  "error_description": "Bad Request",
+  "intuit_tid": "1-64b768b3-74fab1752c8d691065d4ba13"
+}
+2023-07-19T04:38:29.637Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid%20profile%20email%20phone%20address&state=testState
+2023-07-19T04:38:33.187Z error: Create Token () threw an exception : {
+  "authResponse": {
+    "token": {
+      "realmId": "",
+      "token_type": "",
+      "access_token": "",
+      "refresh_token": "",
+      "expires_in": 0,
+      "x_refresh_token_expires_in": 0,
+      "id_token": "",
+      "latency": 60000,
+      "createdAt": 1689741509590,
+      "state": "testState"
+    },
+    "response": {
+      "url": "https://oauth.platform.intuit.com/oauth2/v1/tokens/bearer",
+      "headers": {
+        "date": "Wed, 19 Jul 2023 04:38:33 GMT",
+        "content-type": "application/json;charset=utf-8",
+        "content-length": "27",
+        "connection": "close",
+        "x-spanid": "fecb5e39-93fa-b196-2a79-4596abe6597d",
+        "x-amzn-trace-id": "Root=1-64b768c9-78cad16b221d105151722312",
+        "x-content-type-options": "nosniff",
+        "server": "istio-envoy",
+        "cache-control": "no-cache, no-store",
+        "pragma": "no-cache",
+        "x-envoy-upstream-service-time": "3",
+        "strict-transport-security": "max-age=31536000",
+        "intuit_tid": "1-64b768c9-78cad16b221d105151722312",
+        "x-request-id": "1-64b768c9-78cad16b221d105151722312",
+        "x-envoy-decorator-operation": "usw2-prd-id06-intuit-gateway-active-service.services-gateway-apigwid-usw2-prd-id06.svc.cluster.local:7000/*"
+      },
+      "body": "{\"error\":\"invalid_request\"}",
+      "status": 400,
+      "statusText": "Bad Request"
+    },
+    "body": "{\"error\":\"invalid_request\"}",
+    "json": {
+      "error": "invalid_request"
+    },
+    "intuit_tid": "1-64b768c9-78cad16b221d105151722312"
+  },
+  "originalMessage": "Response has an Error",
+  "error": "invalid_request",
+  "error_description": "Bad Request",
+  "intuit_tid": "1-64b768c9-78cad16b221d105151722312"
+}
+2023-07-19T04:38:48.439Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid%20profile%20email%20phone%20address&state=testState
+2023-07-19T04:38:52.012Z error: Create Token () threw an exception : {
+  "authResponse": {
+    "token": {
+      "realmId": "",
+      "token_type": "",
+      "access_token": "",
+      "refresh_token": "",
+      "expires_in": 0,
+      "x_refresh_token_expires_in": 0,
+      "id_token": "",
+      "latency": 60000,
+      "createdAt": 1689741528436,
+      "state": "testState"
+    },
+    "response": {
+      "url": "https://oauth.platform.intuit.com/oauth2/v1/tokens/bearer",
+      "headers": {
+        "date": "Wed, 19 Jul 2023 04:38:51 GMT",
+        "content-type": "application/json;charset=utf-8",
+        "content-length": "27",
+        "connection": "close",
+        "x-spanid": "1e8d5e86-bd6a-5176-8b2f-0b646818679a",
+        "x-amzn-trace-id": "Root=1-64b768db-071aa5876ea8a7eb5e1dbad5",
+        "x-content-type-options": "nosniff",
+        "server": "istio-envoy",
+        "cache-control": "no-cache, no-store",
+        "pragma": "no-cache",
+        "x-envoy-upstream-service-time": "3",
+        "strict-transport-security": "max-age=31536000",
+        "intuit_tid": "1-64b768db-071aa5876ea8a7eb5e1dbad5",
+        "x-request-id": "1-64b768db-071aa5876ea8a7eb5e1dbad5",
+        "x-envoy-decorator-operation": "usw2-prd-id06-intuit-gateway-active-service.services-gateway-apigwid-usw2-prd-id06.svc.cluster.local:7000/*"
+      },
+      "body": "{\"error\":\"invalid_request\"}",
+      "status": 400,
+      "statusText": "Bad Request"
+    },
+    "body": "{\"error\":\"invalid_request\"}",
+    "json": {
+      "error": "invalid_request"
+    },
+    "intuit_tid": "1-64b768db-071aa5876ea8a7eb5e1dbad5"
+  },
+  "originalMessage": "Response has an Error",
+  "error": "invalid_request",
+  "error_description": "Bad Request",
+  "intuit_tid": "1-64b768db-071aa5876ea8a7eb5e1dbad5"
+}
+2023-07-19T04:39:35.531Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid%20profile%20email%20phone%20address&state=testState
+2023-07-19T04:39:39.167Z error: Create Token () threw an exception : {
+  "authResponse": {
+    "token": {
+      "realmId": "",
+      "token_type": "",
+      "access_token": "",
+      "refresh_token": "",
+      "expires_in": 0,
+      "x_refresh_token_expires_in": 0,
+      "id_token": "",
+      "latency": 60000,
+      "createdAt": 1689741575528,
+      "state": "testState"
+    },
+    "response": {
+      "url": "https://oauth.platform.intuit.com/oauth2/v1/tokens/bearer",
+      "headers": {
+        "date": "Wed, 19 Jul 2023 04:39:39 GMT",
+        "content-type": "application/json;charset=utf-8",
+        "content-length": "27",
+        "connection": "close",
+        "x-spanid": "9e44b5ad-7d25-f879-eedf-a83c3d535802",
+        "x-amzn-trace-id": "Root=1-64b7690b-2263268256a7d647027719e4",
+        "x-content-type-options": "nosniff",
+        "server": "istio-envoy",
+        "cache-control": "no-cache, no-store",
+        "pragma": "no-cache",
+        "x-envoy-upstream-service-time": "3",
+        "strict-transport-security": "max-age=31536000",
+        "intuit_tid": "1-64b7690b-2263268256a7d647027719e4",
+        "x-request-id": "1-64b7690b-2263268256a7d647027719e4",
+        "x-envoy-decorator-operation": "usw2-prd-id06-intuit-gateway-active-service.services-gateway-apigwid-usw2-prd-id06.svc.cluster.local:7000/*"
+      },
+      "body": "{\"error\":\"invalid_request\"}",
+      "status": 400,
+      "statusText": "Bad Request"
+    },
+    "body": "{\"error\":\"invalid_request\"}",
+    "json": {
+      "error": "invalid_request"
+    },
+    "intuit_tid": "1-64b7690b-2263268256a7d647027719e4"
+  },
+  "originalMessage": "Response has an Error",
+  "error": "invalid_request",
+  "error_description": "Bad Request",
+  "intuit_tid": "1-64b7690b-2263268256a7d647027719e4"
+}
+2023-07-19T04:40:27.081Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid%20profile%20email%20phone%20address&state=testState
+2023-07-19T04:40:30.551Z error: Create Token () threw an exception : {
+  "authResponse": {
+    "token": {
+      "realmId": "",
+      "token_type": "",
+      "access_token": "",
+      "refresh_token": "",
+      "expires_in": 0,
+      "x_refresh_token_expires_in": 0,
+      "id_token": "",
+      "latency": 60000,
+      "createdAt": 1689741627078,
+      "state": "testState"
+    },
+    "response": {
+      "url": "https://oauth.platform.intuit.com/oauth2/v1/tokens/bearer",
+      "headers": {
+        "date": "Wed, 19 Jul 2023 04:40:30 GMT",
+        "content-type": "application/json;charset=utf-8",
+        "content-length": "27",
+        "connection": "close",
+        "x-spanid": "0d5c1090-7bd1-e7cf-b3c9-3913674ca870",
+        "x-amzn-trace-id": "Root=1-64b7693e-10f161c77b2cf0c3141f48df",
+        "x-content-type-options": "nosniff",
+        "server": "istio-envoy",
+        "cache-control": "no-cache, no-store",
+        "pragma": "no-cache",
+        "x-envoy-upstream-service-time": "4",
+        "strict-transport-security": "max-age=31536000",
+        "intuit_tid": "1-64b7693e-10f161c77b2cf0c3141f48df",
+        "x-request-id": "1-64b7693e-10f161c77b2cf0c3141f48df",
+        "x-envoy-decorator-operation": "usw2-prd-id06-intuit-gateway-active-service.services-gateway-apigwid-usw2-prd-id06.svc.cluster.local:7000/*"
+      },
+      "body": "{\"error\":\"invalid_request\"}",
+      "status": 400,
+      "statusText": "Bad Request"
+    },
+    "body": "{\"error\":\"invalid_request\"}",
+    "json": {
+      "error": "invalid_request"
+    },
+    "intuit_tid": "1-64b7693e-10f161c77b2cf0c3141f48df"
+  },
+  "originalMessage": "Response has an Error",
+  "error": "invalid_request",
+  "error_description": "Bad Request",
+  "intuit_tid": "1-64b7693e-10f161c77b2cf0c3141f48df"
+}
+2023-07-19T04:41:20.077Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid%20profile%20email%20phone%20address&state=testState
+2023-07-19T04:41:24.313Z error: Create Token () threw an exception : {
+  "authResponse": {
+    "token": {
+      "realmId": "",
+      "token_type": "",
+      "access_token": "",
+      "refresh_token": "",
+      "expires_in": 0,
+      "x_refresh_token_expires_in": 0,
+      "id_token": "",
+      "latency": 60000,
+      "createdAt": 1689741680074,
+      "state": "testState"
+    },
+    "response": {
+      "url": "https://oauth.platform.intuit.com/oauth2/v1/tokens/bearer",
+      "headers": {
+        "date": "Wed, 19 Jul 2023 04:41:24 GMT",
+        "content-type": "application/json;charset=utf-8",
+        "content-length": "27",
+        "connection": "close",
+        "x-spanid": "a7a16663-a27f-4e0f-913d-6189df39ea62",
+        "x-amzn-trace-id": "Root=1-64b76974-42819aab4a0b53561da2dafe",
+        "x-content-type-options": "nosniff",
+        "server": "istio-envoy",
+        "cache-control": "no-cache, no-store",
+        "pragma": "no-cache",
+        "x-envoy-upstream-service-time": "4",
+        "strict-transport-security": "max-age=31536000",
+        "intuit_tid": "1-64b76974-42819aab4a0b53561da2dafe",
+        "x-request-id": "1-64b76974-42819aab4a0b53561da2dafe",
+        "x-envoy-decorator-operation": "usw2-prd-id06-intuit-gateway-active-service.services-gateway-apigwid-usw2-prd-id06.svc.cluster.local:7000/*"
+      },
+      "body": "{\"error\":\"invalid_request\"}",
+      "status": 400,
+      "statusText": "Bad Request"
+    },
+    "body": "{\"error\":\"invalid_request\"}",
+    "json": {
+      "error": "invalid_request"
+    },
+    "intuit_tid": "1-64b76974-42819aab4a0b53561da2dafe"
+  },
+  "originalMessage": "Response has an Error",
+  "error": "invalid_request",
+  "error_description": "Bad Request",
+  "intuit_tid": "1-64b76974-42819aab4a0b53561da2dafe"
+}
+2023-07-19T04:50:59.524Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid%20profile%20email%20phone%20address&state=testState
+2023-07-19T04:51:03.370Z error: Create Token () threw an exception : {
+  "authResponse": {
+    "token": {
+      "realmId": "",
+      "token_type": "",
+      "access_token": "",
+      "refresh_token": "",
+      "expires_in": 0,
+      "x_refresh_token_expires_in": 0,
+      "id_token": "",
+      "latency": 60000,
+      "createdAt": 1689742259521,
+      "state": "testState"
+    },
+    "response": {
+      "url": "https://oauth.platform.intuit.com/oauth2/v1/tokens/bearer",
+      "headers": {
+        "date": "Wed, 19 Jul 2023 04:51:03 GMT",
+        "content-type": "application/json;charset=utf-8",
+        "content-length": "27",
+        "connection": "close",
+        "x-spanid": "2fe126a3-ac3f-e88f-8635-2799094e6627",
+        "x-amzn-trace-id": "Root=1-64b76bb7-3a967b903e0a15a131f313a8",
+        "x-content-type-options": "nosniff",
+        "server": "istio-envoy",
+        "cache-control": "no-cache, no-store",
+        "pragma": "no-cache",
+        "x-envoy-upstream-service-time": "3",
+        "strict-transport-security": "max-age=31536000",
+        "intuit_tid": "1-64b76bb7-3a967b903e0a15a131f313a8",
+        "x-request-id": "1-64b76bb7-3a967b903e0a15a131f313a8",
+        "x-envoy-decorator-operation": "usw2-prd-id06-intuit-gateway-active-service.services-gateway-apigwid-usw2-prd-id06.svc.cluster.local:7000/*"
+      },
+      "body": "{\"error\":\"invalid_request\"}",
+      "status": 400,
+      "statusText": "Bad Request"
+    },
+    "body": "{\"error\":\"invalid_request\"}",
+    "json": {
+      "error": "invalid_request"
+    },
+    "intuit_tid": "1-64b76bb7-3a967b903e0a15a131f313a8"
+  },
+  "originalMessage": "Response has an Error",
+  "error": "invalid_request",
+  "error_description": "Bad Request",
+  "intuit_tid": "1-64b76bb7-3a967b903e0a15a131f313a8"
+}
+2023-07-19T04:51:11.179Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid%20profile%20email%20phone%20address&state=testState
+2023-07-19T04:51:14.763Z error: Create Token () threw an exception : {
+  "authResponse": {
+    "token": {
+      "realmId": "",
+      "token_type": "",
+      "access_token": "",
+      "refresh_token": "",
+      "expires_in": 0,
+      "x_refresh_token_expires_in": 0,
+      "id_token": "",
+      "latency": 60000,
+      "createdAt": 1689742271169,
+      "state": "testState"
+    },
+    "response": {
+      "url": "https://oauth.platform.intuit.com/oauth2/v1/tokens/bearer",
+      "headers": {
+        "date": "Wed, 19 Jul 2023 04:51:14 GMT",
+        "content-type": "application/json;charset=utf-8",
+        "content-length": "27",
+        "connection": "close",
+        "x-spanid": "af4271b5-844b-c67b-0f2e-fe7ba57dcebe",
+        "x-amzn-trace-id": "Root=1-64b76bc2-0a1088a069c7a0373d701e21",
+        "x-content-type-options": "nosniff",
+        "server": "istio-envoy",
+        "cache-control": "no-cache, no-store",
+        "pragma": "no-cache",
+        "x-envoy-upstream-service-time": "3",
+        "strict-transport-security": "max-age=31536000",
+        "intuit_tid": "1-64b76bc2-0a1088a069c7a0373d701e21",
+        "x-request-id": "1-64b76bc2-0a1088a069c7a0373d701e21",
+        "x-envoy-decorator-operation": "usw2-prd-id06-intuit-gateway-active-service.services-gateway-apigwid-usw2-prd-id06.svc.cluster.local:7000/*"
+      },
+      "body": "{\"error\":\"invalid_request\"}",
+      "status": 400,
+      "statusText": "Bad Request"
+    },
+    "body": "{\"error\":\"invalid_request\"}",
+    "json": {
+      "error": "invalid_request"
+    },
+    "intuit_tid": "1-64b76bc2-0a1088a069c7a0373d701e21"
+  },
+  "originalMessage": "Response has an Error",
+  "error": "invalid_request",
+  "error_description": "Bad Request",
+  "intuit_tid": "1-64b76bc2-0a1088a069c7a0373d701e21"
+}
+2023-07-19T04:51:25.501Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid%20profile%20email%20phone%20address&state=testState
+2023-07-19T04:51:29.541Z error: Create Token () threw an exception : {
+  "authResponse": {
+    "token": {
+      "realmId": "",
+      "token_type": "",
+      "access_token": "",
+      "refresh_token": "",
+      "expires_in": 0,
+      "x_refresh_token_expires_in": 0,
+      "id_token": "",
+      "latency": 60000,
+      "createdAt": 1689742285497,
+      "state": "testState"
+    },
+    "response": {
+      "url": "https://oauth.platform.intuit.com/oauth2/v1/tokens/bearer",
+      "headers": {
+        "date": "Wed, 19 Jul 2023 04:51:29 GMT",
+        "content-type": "application/json;charset=utf-8",
+        "content-length": "27",
+        "connection": "close",
+        "x-spanid": "f46a1e0a-0275-b892-41e7-9d5427e9b464",
+        "x-amzn-trace-id": "Root=1-64b76bd1-5067fbce4fe88b630b31eb4a",
+        "x-content-type-options": "nosniff",
+        "server": "istio-envoy",
+        "cache-control": "no-cache, no-store",
+        "pragma": "no-cache",
+        "x-envoy-upstream-service-time": "3",
+        "strict-transport-security": "max-age=31536000",
+        "intuit_tid": "1-64b76bd1-5067fbce4fe88b630b31eb4a",
+        "x-request-id": "1-64b76bd1-5067fbce4fe88b630b31eb4a",
+        "x-envoy-decorator-operation": "usw2-prd-id06-intuit-gateway-active-service.services-gateway-apigwid-usw2-prd-id06.svc.cluster.local:7000/*"
+      },
+      "body": "{\"error\":\"invalid_request\"}",
+      "status": 400,
+      "statusText": "Bad Request"
+    },
+    "body": "{\"error\":\"invalid_request\"}",
+    "json": {
+      "error": "invalid_request"
+    },
+    "intuit_tid": "1-64b76bd1-5067fbce4fe88b630b31eb4a"
+  },
+  "originalMessage": "Response has an Error",
+  "error": "invalid_request",
+  "error_description": "Bad Request",
+  "intuit_tid": "1-64b76bd1-5067fbce4fe88b630b31eb4a"
+}
+2023-07-19T04:51:43.425Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid%20profile%20email%20phone%20address&state=testState
+2023-07-19T04:51:46.752Z error: Create Token () threw an exception : {
+  "authResponse": {
+    "token": {
+      "realmId": "",
+      "token_type": "",
+      "access_token": "",
+      "refresh_token": "",
+      "expires_in": 0,
+      "x_refresh_token_expires_in": 0,
+      "id_token": "",
+      "latency": 60000,
+      "createdAt": 1689742303421,
+      "state": "testState"
+    },
+    "response": {
+      "url": "https://oauth.platform.intuit.com/oauth2/v1/tokens/bearer",
+      "headers": {
+        "date": "Wed, 19 Jul 2023 04:51:46 GMT",
+        "content-type": "application/json;charset=utf-8",
+        "content-length": "27",
+        "connection": "close",
+        "x-spanid": "05f6f63d-4d17-ee5e-4a5d-dec845cbfef3",
+        "x-amzn-trace-id": "Root=1-64b76be2-07614ce96da1139d7662bd14",
+        "x-content-type-options": "nosniff",
+        "server": "istio-envoy",
+        "cache-control": "no-cache, no-store",
+        "pragma": "no-cache",
+        "x-envoy-upstream-service-time": "6",
+        "strict-transport-security": "max-age=31536000",
+        "intuit_tid": "1-64b76be2-07614ce96da1139d7662bd14",
+        "x-request-id": "1-64b76be2-07614ce96da1139d7662bd14",
+        "x-envoy-decorator-operation": "usw2-prd-id06-intuit-gateway-active-service.services-gateway-apigwid-usw2-prd-id06.svc.cluster.local:7000/*"
+      },
+      "body": "{\"error\":\"invalid_request\"}",
+      "status": 400,
+      "statusText": "Bad Request"
+    },
+    "body": "{\"error\":\"invalid_request\"}",
+    "json": {
+      "error": "invalid_request"
+    },
+    "intuit_tid": "1-64b76be2-07614ce96da1139d7662bd14"
+  },
+  "originalMessage": "Response has an Error",
+  "error": "invalid_request",
+  "error_description": "Bad Request",
+  "intuit_tid": "1-64b76be2-07614ce96da1139d7662bd14"
+}
+2023-07-19T04:52:13.448Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid%20profile%20email%20phone%20address&state=testState
+2023-07-19T04:52:16.880Z error: Create Token () threw an exception : {
+  "authResponse": {
+    "token": {
+      "realmId": "",
+      "token_type": "",
+      "access_token": "",
+      "refresh_token": "",
+      "expires_in": 0,
+      "x_refresh_token_expires_in": 0,
+      "id_token": "",
+      "latency": 60000,
+      "createdAt": 1689742333444,
+      "state": "testState"
+    },
+    "response": {
+      "url": "https://oauth.platform.intuit.com/oauth2/v1/tokens/bearer",
+      "headers": {
+        "date": "Wed, 19 Jul 2023 04:52:16 GMT",
+        "content-type": "application/json;charset=utf-8",
+        "content-length": "27",
+        "connection": "close",
+        "x-spanid": "87fb1030-5129-f7af-f26c-933fcc0b8e6d",
+        "x-amzn-trace-id": "Root=1-64b76c00-093f34c90a2742304831f483",
+        "x-content-type-options": "nosniff",
+        "server": "istio-envoy",
+        "cache-control": "no-cache, no-store",
+        "pragma": "no-cache",
+        "x-envoy-upstream-service-time": "4",
+        "strict-transport-security": "max-age=31536000",
+        "intuit_tid": "1-64b76c00-093f34c90a2742304831f483",
+        "x-request-id": "1-64b76c00-093f34c90a2742304831f483",
+        "x-envoy-decorator-operation": "usw2-prd-id06-intuit-gateway-active-service.services-gateway-apigwid-usw2-prd-id06.svc.cluster.local:7000/*"
+      },
+      "body": "{\"error\":\"invalid_request\"}",
+      "status": 400,
+      "statusText": "Bad Request"
+    },
+    "body": "{\"error\":\"invalid_request\"}",
+    "json": {
+      "error": "invalid_request"
+    },
+    "intuit_tid": "1-64b76c00-093f34c90a2742304831f483"
+  },
+  "originalMessage": "Response has an Error",
+  "error": "invalid_request",
+  "error_description": "Bad Request",
+  "intuit_tid": "1-64b76c00-093f34c90a2742304831f483"
+}
+2023-07-19T04:53:10.207Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid%20profile%20email%20phone%20address&state=testState
+2023-07-19T04:53:13.820Z error: Create Token () threw an exception : {
+  "authResponse": {
+    "token": {
+      "realmId": "",
+      "token_type": "",
+      "access_token": "",
+      "refresh_token": "",
+      "expires_in": 0,
+      "x_refresh_token_expires_in": 0,
+      "id_token": "",
+      "latency": 60000,
+      "createdAt": 1689742390201,
+      "state": "testState"
+    },
+    "response": {
+      "url": "https://oauth.platform.intuit.com/oauth2/v1/tokens/bearer",
+      "headers": {
+        "date": "Wed, 19 Jul 2023 04:53:13 GMT",
+        "content-type": "application/json;charset=utf-8",
+        "content-length": "27",
+        "connection": "close",
+        "x-spanid": "1f49214f-c2e1-9ead-5352-a6ebc2b4f9dd",
+        "x-amzn-trace-id": "Root=1-64b76c39-08b990d05769e69e16771bf5",
+        "x-content-type-options": "nosniff",
+        "server": "istio-envoy",
+        "cache-control": "no-cache, no-store",
+        "pragma": "no-cache",
+        "x-envoy-upstream-service-time": "4",
+        "strict-transport-security": "max-age=31536000",
+        "intuit_tid": "1-64b76c39-08b990d05769e69e16771bf5",
+        "x-request-id": "1-64b76c39-08b990d05769e69e16771bf5",
+        "x-envoy-decorator-operation": "usw2-prd-id06-intuit-gateway-active-service.services-gateway-apigwid-usw2-prd-id06.svc.cluster.local:7000/*"
+      },
+      "body": "{\"error\":\"invalid_request\"}",
+      "status": 400,
+      "statusText": "Bad Request"
+    },
+    "body": "{\"error\":\"invalid_request\"}",
+    "json": {
+      "error": "invalid_request"
+    },
+    "intuit_tid": "1-64b76c39-08b990d05769e69e16771bf5"
+  },
+  "originalMessage": "Response has an Error",
+  "error": "invalid_request",
+  "error_description": "Bad Request",
+  "intuit_tid": "1-64b76c39-08b990d05769e69e16771bf5"
+}
+2023-07-19T04:55:21.529Z info: The Authorize Uri is :https://appcenter.intuit.com/connect/oauth2?client_id=ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN&redirect_uri=https%3A%2F%2Fdeveloper.intuit.com%2Fv2%2FOAuth2Playground%2FRedirectUrl&response_type=code&scope=com.intuit.quickbooks.accounting%20openid%20profile%20email%20phone%20address&state=testState

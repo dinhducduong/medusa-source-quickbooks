@@ -19,7 +19,7 @@ switch (process.env.NODE_ENV) {
 
 try {
   dotenv.config({ path: process.cwd() + "/" + ENV_FILE_NAME });
-} catch (e) {}
+} catch (e) { }
 
 // CORS when consuming Medusa from admin
 const ADMIN_CORS =
@@ -29,12 +29,12 @@ const ADMIN_CORS =
 const STORE_CORS = process.env.STORE_CORS || "http://localhost:8000";
 
 const DATABASE_URL =
-process.env.DATABASE_URL || "postgresql://postgres_username:postgres_password@localhost:5432/postgres_database";
+  process.env.DATABASE_URL || "postgresql://postgres_username:postgres_password@localhost:5432/medusa";
 
 const REDIS_URL = process.env.REDIS_URL || "redis://localhost:6379";
 
 const plugins = [
-  
+
 ];
 
 const modules = {
