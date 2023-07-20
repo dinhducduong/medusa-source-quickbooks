@@ -29,12 +29,30 @@ const ADMIN_CORS =
 const STORE_CORS = process.env.STORE_CORS || "http://localhost:8000";
 
 const DATABASE_URL =
-  process.env.DATABASE_URL || "postgresql://postgres_username:postgres_password@localhost:5432/medusa";
+  process.env.DATABASE_URL || "postgresql://postgres_username:postgres_password@localhost:5432/medb";
 
 const REDIS_URL = process.env.REDIS_URL || "redis://localhost:6379";
 
 const plugins = [
-
+  {
+    resolve: "@medusajs/admin",
+    /** @type {import('@medusajs/admin').PluginOptions} */
+    options: {
+      autoRebuild: true
+      // ...
+    },
+  },
+  // {
+  //   // resolve: "medusa-source-quickbooks",
+  //   // options: {
+  //   //   clientId: "ABUuCFOummC9NMMH8FHgBAq2wq1Qd9bUgs1oDZO3Y0XkNyAisN",
+  //   //   clientSecret: "pqouXirYuAO982CjO7QIiYngLqhx7SuwvuweFp9R",
+  //   //   redirectUri: "https://developer.intuit.com/v2/OAuth2Playground/RedirectUrl",
+  //   //   environment: "sandbox",
+  //   //   refeshToken: 'AB116985616415FAe3v2l5iFaexj0SW3f8vqgohZkjQMNPDN1r',
+  //   //   companyId: '4620816365318682770'
+  //   // }
+  // },
 ];
 
 const modules = {

@@ -1,10 +1,9 @@
 import { Router } from "express"
-// const urlencodedParser = bodyParser.urlencoded({ extended: false });
 const OAuthClient = require('intuit-oauth');
-const bodyParser = require('body-parser');
 export default (rootDirectory, pluginOptions) => {
     const router = Router()
     let oauthClient = null;
+
     router.get("/auth/authUri", (req, res) => {
         oauthClient = new OAuthClient({
             clientId: req.query.clientId,
